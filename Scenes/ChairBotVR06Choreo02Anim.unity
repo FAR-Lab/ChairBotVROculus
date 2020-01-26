@@ -1,0 +1,3432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 10
+    m_AtlasSize: 512
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 256
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &219066584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Name
+      value: OVRPlayerController
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+--- !u!1 &221870344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221870345}
+  - component: {fileID: 221870347}
+  - component: {fileID: 221870346}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &221870345
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221870344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 516608854}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -154, y: -369}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &221870346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221870344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &221870347
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221870344}
+  m_CullTransparentMesh: 0
+--- !u!1 &423762693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 423762695}
+  - component: {fileID: 423762694}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &423762694
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423762693}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &423762695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423762693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &516608850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516608854}
+  - component: {fileID: 516608853}
+  - component: {fileID: 516608852}
+  - component: {fileID: 516608851}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &516608851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516608850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &516608852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516608850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &516608853
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516608850}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &516608854
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516608850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 221870345}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &544583360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 544583362}
+  - component: {fileID: 544583361}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &544583361
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544583360}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &544583362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544583360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &631684614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 631684617}
+  - component: {fileID: 631684616}
+  - component: {fileID: 631684615}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &631684615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631684614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &631684616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631684614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &631684617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631684614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1204238761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1204238764}
+  - component: {fileID: 1204238763}
+  - component: {fileID: 1204238762}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!81 &1204238762
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204238761}
+  m_Enabled: 1
+--- !u!20 &1204238763
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204238761}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1204238764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204238761}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!21 &1350292324
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1 &1415881974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1415881978}
+  - component: {fileID: 1415881977}
+  - component: {fileID: 1415881976}
+  - component: {fileID: 1415881975}
+  - component: {fileID: 1415881980}
+  - component: {fileID: 1415881979}
+  m_Layer: 0
+  m_Name: ChairOfficePath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1415881975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415881974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6068492, y: 0.6174674, z: 1.1382884}
+  m_Center: {x: -0.0016839653, y: -0.01770847, z: 0.5691542}
+--- !u!23 &1415881976
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415881974}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 135326224c922a845b9fe761029099e4, type: 2}
+  - {fileID: 2100000, guid: 135326224c922a845b9fe761029099e4, type: 2}
+  - {fileID: 2100000, guid: 135326224c922a845b9fe761029099e4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1415881977
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415881974}
+  m_Mesh: {fileID: 4300000, guid: 2cd1a337a12fdcf449bf29d7f1e3c702, type: 3}
+--- !u!4 &1415881978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415881974}
+  m_LocalRotation: {x: -0.29712164, y: 0.6416532, z: 0.6416532, w: 0.2971216}
+  m_LocalPosition: {x: 0.11911297, y: 0.09304333, z: 5.0956454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -49.694, z: 180}
+--- !u!95 &1415881979
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415881974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b63bca9906df2c349a34b189b50fc9a2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1415881980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415881974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083789739f3c89c4b98de6fd2a24d74b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Spline: {fileID: 1486482671}
+  CurvePercent: 0
+  DampingTime: 0
+  AffectPosition: 1
+  PositionOffset: {x: 0, y: 0, z: 0}
+  OrientationMode: 1
+  Target: {fileID: 0}
+  AdditionalRotation: {x: -90, y: 0, z: 0}
+  AutomaticWalking: 0
+  UpdateInUnityEditor: 0
+  LoopMode: 0
+  SpeedUnits: 0
+  Speed: 1
+  MilestonesBasedOn: 0
+  CurrentMileStone: 0
+  MilestoneReached:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!1001 &1425070781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_Name
+      value: OVRCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+--- !u!1 &1486482668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486482672}
+  - component: {fileID: 1486482671}
+  - component: {fileID: 1486482670}
+  - component: {fileID: 1486482669}
+  m_Layer: 0
+  m_Name: Spline01Circ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &1486482669
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486482668}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1486482670
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486482668}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 1350292324}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &1486482671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486482668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b734ca2a881bba04180275df62931018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Visibility: 2
+  RenderMode: 1
+  Material: {fileID: 0}
+  CustomMeshSwapUV: 0
+  CustomMeshUVCoordsChannel: 0
+  CustomMeshUTileFactor: 1
+  CustomMeshVTileWorldSize: 1
+  CustomMeshOffset: {x: 0, y: 0, z: 0}
+  ControlPoints:
+  - Position: {x: -0.30106258, y: 0.09304333, z: 4.4139614}
+    Camber: 0
+    ControlHandleIn: {x: -3.0236983, y: -0, z: 2.6186347}
+    ControlHandleOut: {x: 3.0236983, y: 0, z: -2.6186347}
+    ControlPointMode: 2
+  - Position: {x: 5.030325, y: 0.09304333, z: -0.20321739}
+    Camber: 0
+    ControlHandleIn: {x: -0.19052376, y: -0, z: 3.9954598}
+    ControlHandleOut: {x: 0.19052376, y: 0, z: -3.9954598}
+    ControlPointMode: 2
+  - Position: {x: -0.072092175, y: 0.09304333, z: -6.1744456}
+    Camber: 0
+    ControlHandleIn: {x: 3.8953805, y: -0, z: -0.9088515}
+    ControlHandleOut: {x: -3.8953805, y: 0, z: 0.9088515}
+    ControlPointMode: 2
+  - Position: {x: -4.742733, y: 0.09304333, z: -0.33168733}
+    Camber: 0
+    ControlHandleIn: {x: 1.5155447, y: 0, z: -3.7017732}
+    ControlHandleOut: {x: -1.5155447, y: -0, z: 3.7017732}
+    ControlPointMode: 2
+  FinalPoints:
+  - Position: {x: -0.30106258, y: 0.09304333, z: 4.4139614}
+    Camber: 0
+    SegmentAxisX: {x: 0.646875, y: -0, z: 0.76259595}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.76259595, y: 0.00000004436563, z: -0.646875}
+    NextSegmentLen: 0.16793586
+    DistanceFromOrigin: 0
+  - Position: {x: -0.17299537, y: 0.093043335, z: 4.305328}
+    Camber: 0
+    SegmentAxisX: {x: 0.6309446, y: -0, z: 0.7758278}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.7758278, y: -0.000000045530374, z: -0.6309446}
+    NextSegmentLen: 0.16363978
+    DistanceFromOrigin: 0.16793586
+  - Position: {x: -0.04603908, y: 0.09304333, z: 4.2020802}
+    Camber: 0
+    SegmentAxisX: {x: 0.614631, y: -0, z: 0.78881484}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.78881484, y: 0.00000004670766, z: -0.614631}
+    NextSegmentLen: 0.15951517
+    DistanceFromOrigin: 0.33157563
+  - Position: {x: 0.079788856, y: 0.093043335, z: 4.1040373}
+    Camber: 0
+    SegmentAxisX: {x: 0.59797543, y: -0, z: 0.80151445}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.80151445, y: -0.000000047895785, z: -0.59797543}
+    NextSegmentLen: 0.15555817
+    DistanceFromOrigin: 0.4910908
+  - Position: {x: 0.20447098, y: 0.09304333, z: 4.0110173}
+    Camber: 0
+    SegmentAxisX: {x: 0.5810209, y: -0, z: 0.81388867}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.81388867, y: 0.000000098186554, z: -0.5810209}
+    NextSegmentLen: 0.15176377
+    DistanceFromOrigin: 0.646649
+  - Position: {x: 0.3279898, y: 0.09304334, z: 3.9228394}
+    Camber: 0
+    SegmentAxisX: {x: 0.563826, y: -0, z: 0.8258936}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8258936, y: -0.00000020119283, z: -0.563826}
+    NextSegmentLen: 0.14812815
+    DistanceFromOrigin: 0.7984128
+  - Position: {x: 0.45032787, y: 0.09304331, z: 3.839321}
+    Camber: 0
+    SegmentAxisX: {x: 0.5464365, y: -0, z: 0.8375005}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8375005, y: 0.00000010301912, z: -0.5464365}
+    NextSegmentLen: 0.14464462
+    DistanceFromOrigin: 0.94654095
+  - Position: {x: 0.5714678, y: 0.09304333, z: 3.7602818}
+    Camber: 0
+    SegmentAxisX: {x: 0.528924, y: -0, z: 0.8486693}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8486693, y: 0, z: -0.528924}
+    NextSegmentLen: 0.14130878
+    DistanceFromOrigin: 1.0911856
+  - Position: {x: 0.69139224, y: 0.09304333, z: 3.6855402}
+    Camber: 0
+    SegmentAxisX: {x: 0.51135564, y: -0, z: 0.8593692}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8593692, y: -0.000000053945023, z: -0.51135564}
+    NextSegmentLen: 0.13811433
+    DistanceFromOrigin: 1.2324944
+  - Position: {x: 0.81008345, y: 0.09304332, z: 3.6149147}
+    Camber: 0
+    SegmentAxisX: {x: 0.49380577, y: -0, z: 0.86957216}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.86957216, y: 0.00000005516663, z: -0.49380577}
+    NextSegmentLen: 0.13505593
+    DistanceFromOrigin: 1.3706087
+  - Position: {x: 0.9275243, y: 0.09304333, z: 3.5482233}
+    Camber: 0
+    SegmentAxisX: {x: 0.4763482, y: -0, z: 0.8792568}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8792568, y: -0.000000056389972, z: -0.4763482}
+    NextSegmentLen: 0.13212599
+    DistanceFromOrigin: 1.5056646
+  - Position: {x: 1.043697, y: 0.09304332, z: 3.4852853}
+    Camber: 0
+    SegmentAxisX: {x: 0.45906556, y: -0, z: 0.88840234}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.88840234, y: 0.00000005761388, z: -0.45906556}
+    NextSegmentLen: 0.12931919
+    DistanceFromOrigin: 1.6377906
+  - Position: {x: 1.1585845, y: 0.09304333, z: 3.4259193}
+    Camber: 0
+    SegmentAxisX: {x: 0.44205022, y: -0, z: 0.89699024}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.89699024, y: 0.000000058838108, z: -0.44205022}
+    NextSegmentLen: 0.12662849
+    DistanceFromOrigin: 1.7671098
+  - Position: {x: 1.272169, y: 0.093043335, z: 3.3699431}
+    Camber: 0
+    SegmentAxisX: {x: 0.42538297, y: -0, z: 0.90501344}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.90501344, y: -0.00000012012505, z: -0.42538297}
+    NextSegmentLen: 0.12404708
+    DistanceFromOrigin: 1.8937383
+  - Position: {x: 1.3844333, y: 0.09304332, z: 3.3171756}
+    Camber: 0
+    SegmentAxisX: {x: 0.40914762, y: -0, z: 0.9124682}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9124682, y: 0.00000012257503, z: -0.40914762}
+    NextSegmentLen: 0.12156767
+    DistanceFromOrigin: 2.0177853
+  - Position: {x: 1.4953599, y: 0.093043335, z: 3.2674365}
+    Camber: 0
+    SegmentAxisX: {x: 0.3934563, y: -0, z: 0.9193433}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9193433, y: -0.000000062513074, z: -0.3934563}
+    NextSegmentLen: 0.11918435
+    DistanceFromOrigin: 2.139353
+  - Position: {x: 1.6049312, y: 0.09304333, z: 3.2205427}
+    Camber: 0
+    SegmentAxisX: {x: 0.37838292, y: -0, z: 0.92564917}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.92564917, y: 0, z: -0.37838292}
+    NextSegmentLen: 0.1168896
+    DistanceFromOrigin: 2.2585373
+  - Position: {x: 1.71313, y: 0.09304333, z: 3.1763136}
+    Camber: 0
+    SegmentAxisX: {x: 0.3640307, y: -0, z: 0.93138695}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.93138695, y: 0, z: -0.3640307}
+    NextSegmentLen: 0.11467687
+    DistanceFromOrigin: 2.375427
+  - Position: {x: 1.8199385, y: 0.09304333, z: 3.1345677}
+    Camber: 0
+    SegmentAxisX: {x: 0.3504943, y: -0, z: 0.9365648}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9365648, y: 0, z: -0.3504943}
+    NextSegmentLen: 0.11254016
+    DistanceFromOrigin: 2.490104
+  - Position: {x: 1.9253397, y: 0.09304333, z: 3.095123}
+    Camber: 0
+    SegmentAxisX: {x: 0.33785596, y: -0, z: 0.9411978}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9411978, y: 0, z: -0.33785596}
+    NextSegmentLen: 0.11047226
+    DistanceFromOrigin: 2.6026442
+  - Position: {x: 2.029316, y: 0.09304333, z: 3.0577993}
+    Camber: 0
+    SegmentAxisX: {x: 0.3262254, y: -0, z: 0.945292}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.945292, y: 0.000000068689445, z: -0.3262254}
+    NextSegmentLen: 0.10846762
+    DistanceFromOrigin: 2.7131164
+  - Position: {x: 2.1318495, y: 0.093043335, z: 3.0224144}
+    Camber: 0
+    SegmentAxisX: {x: 0.31568787, y: -0, z: 0.94886315}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.94886315, y: -0.000000069944456, z: -0.31568787}
+    NextSegmentLen: 0.10652139
+    DistanceFromOrigin: 2.821584
+  - Position: {x: 2.2329237, y: 0.09304333, z: 2.988787}
+    Camber: 0
+    SegmentAxisX: {x: 0.30634183, y: -0, z: 0.9519216}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9519216, y: 0, z: -0.30634183}
+    NextSegmentLen: 0.10462679
+    DistanceFromOrigin: 2.9281054
+  - Position: {x: 2.3325202, y: 0.09304333, z: 2.9567354}
+    Camber: 0
+    SegmentAxisX: {x: 0.29827487, y: -0, z: 0.95448}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.95448, y: 0, z: -0.29827487}
+    NextSegmentLen: 0.10278042
+    DistanceFromOrigin: 3.0327322
+  - Position: {x: 2.430622, y: 0.09304333, z: 2.9260786}
+    Camber: 0
+    SegmentAxisX: {x: 0.291589, y: -0, z: 0.9565437}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9565437, y: 0, z: -0.291589}
+    NextSegmentLen: 0.10097768
+    DistanceFromOrigin: 3.1355126
+  - Position: {x: 2.5272117, y: 0.09304333, z: 2.8966346}
+    Camber: 0
+    SegmentAxisX: {x: 0.2863638, y: -0, z: 0.958121}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.958121, y: 0.000000075095194, z: -0.2863638}
+    NextSegmentLen: 0.09921514
+    DistanceFromOrigin: 3.2364902
+  - Position: {x: 2.6222718, y: 0.093043335, z: 2.868223}
+    Camber: 0
+    SegmentAxisX: {x: 0.28271297, y: -0, z: 0.95920455}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.95920455, y: -0.000000076424115, z: -0.28271297}
+    NextSegmentLen: 0.097489916
+    DistanceFromOrigin: 3.3357053
+  - Position: {x: 2.7157845, y: 0.09304333, z: 2.8406613}
+    Camber: 0
+    SegmentAxisX: {x: 0.28071743, y: -0, z: 0.95979047}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.95979047, y: -0.000000077771745, z: -0.28071743}
+    NextSegmentLen: 0.09580061
+    DistanceFromOrigin: 3.433195
+  - Position: {x: 2.807733, y: 0.09304332, z: 2.8137684}
+    Camber: 0
+    SegmentAxisX: {x: 0.2804745, y: -0, z: 0.95986146}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.95986146, y: 0, z: -0.2804745}
+    NextSegmentLen: 0.094145216
+    DistanceFromOrigin: 3.5289958
+  - Position: {x: 2.8980994, y: 0.09304332, z: 2.787363}
+    Camber: 0
+    SegmentAxisX: {x: 0.28207216, y: -0, z: 0.9593932}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9593932, y: 0.00000008052578, z: -0.28207216}
+    NextSegmentLen: 0.09252416
+    DistanceFromOrigin: 3.623141
+  - Position: {x: 2.9868665, y: 0.09304333, z: 2.7612646}
+    Camber: 0
+    SegmentAxisX: {x: 0.28562787, y: -0, z: 0.9583406}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9583406, y: 0, z: -0.28562787}
+    NextSegmentLen: 0.09093829
+    DistanceFromOrigin: 3.715665
+  - Position: {x: 3.0740163, y: 0.09304333, z: 2.73529}
+    Camber: 0
+    SegmentAxisX: {x: 0.29121, y: -0, z: 0.9566591}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9566591, y: 0, z: -0.29121}
+    NextSegmentLen: 0.08938998
+    DistanceFromOrigin: 3.8066034
+  - Position: {x: 3.159532, y: 0.09304333, z: 2.7092588}
+    Camber: 0
+    SegmentAxisX: {x: 0.298922, y: -0, z: 0.9542776}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9542776, y: 0, z: -0.298922}
+    NextSegmentLen: 0.08788216
+    DistanceFromOrigin: 3.8959935
+  - Position: {x: 3.243396, y: 0.09304333, z: 2.682989}
+    Camber: 0
+    SegmentAxisX: {x: 0.30882886, y: -0, z: 0.9511176}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9511176, y: 0, z: -0.30882886}
+    NextSegmentLen: 0.08641943
+    DistanceFromOrigin: 3.9838758
+  - Position: {x: 3.325591, y: 0.09304333, z: 2.6563}
+    Camber: 0
+    SegmentAxisX: {x: 0.32103232, y: -0, z: 0.9470682}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9470682, y: -0.00000008764631, z: -0.32103232}
+    NextSegmentLen: 0.08500735
+    DistanceFromOrigin: 4.0702953
+  - Position: {x: 3.4060988, y: 0.09304332, z: 2.62901}
+    Camber: 0
+    SegmentAxisX: {x: 0.33557278, y: -0, z: 0.9420143}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9420143, y: 0.00000008906313, z: -0.33557278}
+    NextSegmentLen: 0.08365505
+    DistanceFromOrigin: 4.1553025
+  - Position: {x: 3.484903, y: 0.09304333, z: 2.6009376}
+    Camber: 0
+    SegmentAxisX: {x: 0.3525159, y: -0, z: 0.93580586}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.93580586, y: 0, z: -0.3525159}
+    NextSegmentLen: 0.08237007
+    DistanceFromOrigin: 4.2389574
+  - Position: {x: 3.5619855, y: 0.09304333, z: 2.5719008}
+    Camber: 0
+    SegmentAxisX: {x: 0.37186468, y: -0, z: 0.92828697}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.92828697, y: 0, z: -0.37186468}
+    NextSegmentLen: 0.08116362
+    DistanceFromOrigin: 4.3213277
+  - Position: {x: 3.6373286, y: 0.09304333, z: 2.541719}
+    Camber: 0
+    SegmentAxisX: {x: 0.3936177, y: -0, z: 0.9192742}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9192742, y: 0, z: -0.3936177}
+    NextSegmentLen: 0.080048956
+    DistanceFromOrigin: 4.402491
+  - Position: {x: 3.7109156, y: 0.09304333, z: 2.5102103}
+    Camber: 0
+    SegmentAxisX: {x: 0.41772196, y: -0, z: 0.9085749}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9085749, y: 0.00000009426427, z: -0.41772196}
+    NextSegmentLen: 0.07903928
+    DistanceFromOrigin: 4.48254
+  - Position: {x: 3.7827287, y: 0.093043335, z: 2.4771938}
+    Camber: 0
+    SegmentAxisX: {x: 0.44409424, y: -0, z: 0.8959801}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8959801, y: -0.00000009533586, z: -0.44409424}
+    NextSegmentLen: 0.078150876
+    DistanceFromOrigin: 4.561579
+  - Position: {x: 3.8527503, y: 0.09304333, z: 2.4424875}
+    Camber: 0
+    SegmentAxisX: {x: 0.47257063, y: -0, z: 0.88129276}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.88129276, y: 0, z: -0.47257063}
+    NextSegmentLen: 0.07740105
+    DistanceFromOrigin: 4.63973
+  - Position: {x: 3.9209633, y: 0.09304333, z: 2.40591}
+    Camber: 0
+    SegmentAxisX: {x: 0.5029424, y: -0, z: 0.86431986}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.86431986, y: 0, z: -0.5029424}
+    NextSegmentLen: 0.07680802
+    DistanceFromOrigin: 4.717131
+  - Position: {x: 3.98735, y: 0.09304333, z: 2.36728}
+    Camber: 0
+    SegmentAxisX: {x: 0.5349224, y: -0, z: 0.8449012}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8449012, y: 0, z: -0.5349224}
+    NextSegmentLen: 0.07639147
+    DistanceFromOrigin: 4.793939
+  - Position: {x: 4.051893, y: 0.09304333, z: 2.3264165}
+    Camber: 0
+    SegmentAxisX: {x: 0.5681765, y: -0, z: 0.82290673}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.82290673, y: 0, z: -0.5681765}
+    NextSegmentLen: 0.07617164
+    DistanceFromOrigin: 4.870331
+  - Position: {x: 4.1145754, y: 0.09304333, z: 2.2831376}
+    Camber: 0
+    SegmentAxisX: {x: 0.60229826, y: -0, z: 0.79827106}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.79827106, y: -0.00000009781736, z: -0.60229826}
+    NextSegmentLen: 0.076168284
+    DistanceFromOrigin: 4.9465027
+  - Position: {x: 4.1753783, y: 0.09304332, z: 2.2372615}
+    Camber: 0
+    SegmentAxisX: {x: 0.63681537, y: -0, z: 0.7710163}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.7710163, y: 0.00000009751839, z: -0.63681537}
+    NextSegmentLen: 0.0764018
+    DistanceFromOrigin: 5.0226707
+  - Position: {x: 4.2342854, y: 0.09304333, z: 2.1886077}
+    Camber: 0
+    SegmentAxisX: {x: 0.67125505, y: -0, z: 0.74122643}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.74122643, y: -0.00000009689822, z: -0.67125505}
+    NextSegmentLen: 0.07689079
+    DistanceFromOrigin: 5.0990725
+  - Position: {x: 4.291279, y: 0.09304332, z: 2.1369944}
+    Camber: 0
+    SegmentAxisX: {x: 0.70511436, y: -0, z: 0.7090935}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.7090935, y: 0.00000009594709, z: -0.70511436}
+    NextSegmentLen: 0.07765301
+    DistanceFromOrigin: 5.1759634
+  - Position: {x: 4.346342, y: 0.09304333, z: 2.08224}
+    Camber: 0
+    SegmentAxisX: {x: 0.73792726, y: -0, z: 0.67488027}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.67488027, y: 0, z: -0.73792726}
+    NextSegmentLen: 0.07870269
+    DistanceFromOrigin: 5.2536163
+  - Position: {x: 4.399457, y: 0.09304333, z: 2.0241632}
+    Camber: 0
+    SegmentAxisX: {x: 0.7692585, y: -0, z: 0.63893765}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.63893765, y: 0, z: -0.7692585}
+    NextSegmentLen: 0.08005228
+    DistanceFromOrigin: 5.3323193
+  - Position: {x: 4.4506054, y: 0.09304333, z: 1.9625823}
+    Camber: 0
+    SegmentAxisX: {x: 0.7987304, y: -0, z: 0.6016891}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.6016891, y: 0, z: -0.7987304}
+    NextSegmentLen: 0.081712045
+    DistanceFromOrigin: 5.4123716
+  - Position: {x: 4.4997706, y: 0.09304333, z: 1.8973165}
+    Camber: 0
+    SegmentAxisX: {x: 0.826066, y: -0, z: 0.5635733}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.5635733, y: 0, z: -0.826066}
+    NextSegmentLen: 0.08368906
+    DistanceFromOrigin: 5.494084
+  - Position: {x: 4.5469356, y: 0.09304333, z: 1.8281838}
+    Camber: 0
+    SegmentAxisX: {x: 0.85107535, y: -0, z: 0.5250436}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.5250436, y: 0, z: -0.85107535}
+    NextSegmentLen: 0.08598613
+    DistanceFromOrigin: 5.577773
+  - Position: {x: 4.592082, y: 0.09304333, z: 1.7550031}
+    Camber: 0
+    SegmentAxisX: {x: 0.8736536, y: -0, z: 0.48654854}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.48654854, y: 0, z: -0.8736536}
+    NextSegmentLen: 0.08860544
+    DistanceFromOrigin: 5.663759
+  - Position: {x: 4.635193, y: 0.09304333, z: 1.6775926}
+    Camber: 0
+    SegmentAxisX: {x: 0.8937846, y: -0, z: 0.44849658}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.44849658, y: 0, z: -0.8937846}
+    NextSegmentLen: 0.091544926
+    DistanceFromOrigin: 5.7523646
+  - Position: {x: 4.6762505, y: 0.09304333, z: 1.5957712}
+    Camber: 0
+    SegmentAxisX: {x: 0.9115202, y: -0, z: 0.4112554}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.4112554, y: 0, z: -0.9115202}
+    NextSegmentLen: 0.09480152
+    DistanceFromOrigin: 5.8439097
+  - Position: {x: 4.715238, y: 0.09304333, z: 1.5093577}
+    Camber: 0
+    SegmentAxisX: {x: 0.92698276, y: -0, z: 0.37510386}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.37510386, y: -0.00000007574012, z: -0.92698276}
+    NextSegmentLen: 0.09837033
+    DistanceFromOrigin: 5.938711
+  - Position: {x: 4.752137, y: 0.09304332, z: 1.4181701}
+    Camber: 0
+    SegmentAxisX: {x: 0.94031423, y: -0, z: 0.34030738}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.34030738, y: 0.00000007286971, z: -0.94031423}
+    NextSegmentLen: 0.102245234
+    DistanceFromOrigin: 6.0370817
+  - Position: {x: 4.786932, y: 0.09304333, z: 1.3220274}
+    Camber: 0
+    SegmentAxisX: {x: 0.9517082, y: -0, z: 0.30700424}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.30700424, y: 0, z: -0.9517082}
+    NextSegmentLen: 0.10641865
+    DistanceFromOrigin: 6.139327
+  - Position: {x: 4.819603, y: 0.09304333, z: 1.220748}
+    Camber: 0
+    SegmentAxisX: {x: 0.9613462, y: -0, z: 0.27534243}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.27534243, y: 0, z: -0.9613462}
+    NextSegmentLen: 0.11088349
+    DistanceFromOrigin: 6.2457457
+  - Position: {x: 4.850134, y: 0.09304333, z: 1.1141505}
+    Camber: 0
+    SegmentAxisX: {x: 0.9694282, y: -0, z: 0.24537511}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.24537511, y: 0, z: -0.9694282}
+    NextSegmentLen: 0.11563211
+    DistanceFromOrigin: 6.3566294
+  - Position: {x: 4.878507, y: 0.09304333, z: 1.0020535}
+    Camber: 0
+    SegmentAxisX: {x: 0.9761414, y: -0, z: 0.2171357}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.2171357, y: 0.00000006175028, z: -0.9761414}
+    NextSegmentLen: 0.12065664
+    DistanceFromOrigin: 6.4722614
+  - Position: {x: 4.904706, y: 0.093043335, z: 0.88427556}
+    Camber: 0
+    SegmentAxisX: {x: 0.98166925, y: -0, z: 0.19059263}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.19059263, y: -0.000000059155575, z: -0.98166925}
+    NextSegmentLen: 0.12594892
+    DistanceFromOrigin: 6.592918
+  - Position: {x: 4.928711, y: 0.09304333, z: 0.7606354}
+    Camber: 0
+    SegmentAxisX: {x: 0.9861695, y: -0, z: 0.16573994}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.16573994, y: -0.000000056657186, z: -0.9861695}
+    NextSegmentLen: 0.13150284
+    DistanceFromOrigin: 6.718867
+  - Position: {x: 4.950506, y: 0.09304332, z: 0.6309513}
+    Camber: 0
+    SegmentAxisX: {x: 0.98979354, y: -0, z: 0.14250854}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.14250854, y: 0.000000054260692, z: -0.98979354}
+    NextSegmentLen: 0.13731083
+    DistanceFromOrigin: 6.8503695
+  - Position: {x: 4.970074, y: 0.09304333, z: 0.4950419}
+    Camber: 0
+    SegmentAxisX: {x: 0.9926731, y: -0, z: 0.12083048}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.12083048, y: 0, z: -0.9926731}
+    NextSegmentLen: 0.14336629
+    DistanceFromOrigin: 6.9876804
+  - Position: {x: 4.987397, y: 0.09304333, z: 0.35272604}
+    Camber: 0
+    SegmentAxisX: {x: 0.9949241, y: -0, z: 0.10062845}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.10062845, y: 0, z: -0.9949241}
+    NextSegmentLen: 0.14966369
+    DistanceFromOrigin: 7.131047
+  - Position: {x: 5.0024576, y: 0.09304333, z: 0.20382203}
+    Camber: 0
+    SegmentAxisX: {x: 0.9966468, y: -0, z: 0.08182389}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.08182389, y: 0, z: -0.9966468}
+    NextSegmentLen: 0.15619723
+    DistanceFromOrigin: 7.28071
+  - Position: {x: 5.0152383, y: 0.09304333, z: 0.048148558}
+    Camber: 0
+    SegmentAxisX: {x: 0.9982037, y: -0, z: 0.05991086}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.05991086, y: 0, z: -0.9982037}
+    NextSegmentLen: 0.2518183
+    DistanceFromOrigin: 7.4369073
+  - Position: {x: 5.030325, y: 0.09304333, z: -0.20321739}
+    Camber: 0
+    SegmentAxisX: {x: 0.9990867, y: -0, z: 0.04272988}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.04272988, y: 0.000000048951858, z: -0.9990867}
+    NextSegmentLen: 0.1522022
+    DistanceFromOrigin: 7.6887255
+  - Position: {x: 5.0368285, y: 0.093043335, z: -0.35528058}
+    Camber: 0
+    SegmentAxisX: {x: 0.9994634, y: -0, z: 0.032756194}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.032756194, y: 0, z: -0.9994634}
+    NextSegmentLen: 0.15103053
+    DistanceFromOrigin: 7.8409276
+  - Position: {x: 5.0417757, y: 0.093043335, z: -0.50623006}
+    Camber: 0
+    SegmentAxisX: {x: 0.9997457, y: -0, z: 0.022549722}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.022549722, y: -0.00000009944663, z: -0.9997457}
+    NextSegmentLen: 0.14984079
+    DistanceFromOrigin: 7.991958
+  - Position: {x: 5.0451546, y: 0.09304332, z: -0.65603274}
+    Camber: 0
+    SegmentAxisX: {x: 0.9999265, y: -0, z: 0.012120356}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.012120356, y: -0.0000000501272, z: -0.9999265}
+    NextSegmentLen: 0.1486335
+    DistanceFromOrigin: 8.141799
+  - Position: {x: 5.046956, y: 0.09304331, z: -0.8046553}
+    Camber: 0
+    SegmentAxisX: {x: 0.999999, y: -0, z: 0.0014427112}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.0014427112, y: 0.000000050543413, z: -0.999999}
+    NextSegmentLen: 0.14740953
+    DistanceFromOrigin: 8.290433
+  - Position: {x: 5.0471687, y: 0.09304332, z: -0.9520647}
+    Camber: 0
+    SegmentAxisX: {x: 0.9999548, y: 0, z: -0.009499584}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.009499584, y: 0, z: -0.9999548}
+    NextSegmentLen: 0.14616953
+    DistanceFromOrigin: 8.437842
+  - Position: {x: 5.04578, y: 0.09304332, z: -1.0982276}
+    Camber: 0
+    SegmentAxisX: {x: 0.9997855, y: 0, z: -0.020710304}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.020710304, y: 0.000000051413807, z: -0.9997855}
+    NextSegmentLen: 0.144914
+    DistanceFromOrigin: 8.584012
+  - Position: {x: 5.042779, y: 0.09304333, z: -1.2431105}
+    Camber: 0
+    SegmentAxisX: {x: 0.9994816, y: 0, z: -0.032193076}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.032193076, y: 0, z: -0.9994816}
+    NextSegmentLen: 0.14364477
+    DistanceFromOrigin: 8.728926
+  - Position: {x: 5.0381546, y: 0.09304333, z: -1.3866808}
+    Camber: 0
+    SegmentAxisX: {x: 0.99903315, y: 0, z: -0.043961838}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.043961838, y: 0.00000005233552, z: -0.99903315}
+    NextSegmentLen: 0.14236183
+    DistanceFromOrigin: 8.87257
+  - Position: {x: 5.031896, y: 0.093043335, z: -1.528905}
+    Camber: 0
+    SegmentAxisX: {x: 0.9984281, y: 0, z: -0.05604775}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.05604775, y: -0.00000015844873, z: -0.9984281}
+    NextSegmentLen: 0.14106609
+    DistanceFromOrigin: 9.014932
+  - Position: {x: 5.0239897, y: 0.09304331, z: -1.6697494}
+    Camber: 0
+    SegmentAxisX: {x: 0.99765724, y: 0, z: -0.0684107}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.0684107, y: 0.000000106619844, z: -0.99765724}
+    NextSegmentLen: 0.13975973
+    DistanceFromOrigin: 9.155998
+  - Position: {x: 5.0144286, y: 0.09304333, z: -1.8091817}
+    Camber: 0
+    SegmentAxisX: {x: 0.9967038, y: 0, z: -0.081126906}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.081126906, y: -0.000000053817097, z: -0.9967038}
+    NextSegmentLen: 0.13844264
+    DistanceFromOrigin: 9.295758
+  - Position: {x: 5.003197, y: 0.09304332, z: -1.947168}
+    Camber: 0
+    SegmentAxisX: {x: 0.9955575, y: 0, z: -0.09415615}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.09415615, y: 0.00000016301274, z: -0.9955575}
+    NextSegmentLen: 0.13711654
+    DistanceFromOrigin: 9.434201
+  - Position: {x: 4.990287, y: 0.09304334, z: -2.0836754}
+    Camber: 0
+    SegmentAxisX: {x: 0.9942014, y: 0, z: -0.107534096}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.107534096, y: -0.000000054871503, z: -0.9942014}
+    NextSegmentLen: 0.13578233
+    DistanceFromOrigin: 9.571318
+  - Position: {x: 4.9756856, y: 0.093043335, z: -2.2186704}
+    Camber: 0
+    SegmentAxisX: {x: 0.99261844, y: 0, z: -0.121279106}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.121279106, y: -0.00000011083734, z: -0.99261844}
+    NextSegmentLen: 0.1344417
+    DistanceFromOrigin: 9.7071
+  - Position: {x: 4.9593806, y: 0.09304332, z: -2.3521197}
+    Camber: 0
+    SegmentAxisX: {x: 0.9907955, y: 0, z: -0.13536699}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.13536699, y: 0.00000005597897, z: -0.9907955}
+    NextSegmentLen: 0.13309607
+    DistanceFromOrigin: 9.841541
+  - Position: {x: 4.941364, y: 0.09304333, z: -2.4839907}
+    Camber: 0
+    SegmentAxisX: {x: 0.988709, y: 0, z: -0.14984837}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.14984837, y: 0, z: -0.988709}
+    NextSegmentLen: 0.13174659
+    DistanceFromOrigin: 9.974637
+  - Position: {x: 4.921622, y: 0.09304333, z: -2.6142497}
+    Camber: 0
+    SegmentAxisX: {x: 0.98633975, y: 0, z: -0.16472395}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.16472395, y: -0.000000114277356, z: -0.98633975}
+    NextSegmentLen: 0.1303947
+    DistanceFromOrigin: 10.106383
+  - Position: {x: 4.9001427, y: 0.09304331, z: -2.7428632}
+    Camber: 0
+    SegmentAxisX: {x: 0.98367006, y: 0, z: -0.17998117}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.17998117, y: 0.0000000577372, z: -0.98367006}
+    NextSegmentLen: 0.12904298
+    DistanceFromOrigin: 10.236778
+  - Position: {x: 4.8769174, y: 0.09304332, z: -2.869799}
+    Camber: 0
+    SegmentAxisX: {x: 0.9806723, y: 0, z: -0.1956576}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.1956576, y: 0.00000005834812, z: -0.9806723}
+    NextSegmentLen: 0.12769186
+    DistanceFromOrigin: 10.365821
+  - Position: {x: 4.8519335, y: 0.09304333, z: -2.9950228}
+    Camber: 0
+    SegmentAxisX: {x: 0.97732204, y: 0, z: -0.21175802}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.21175802, y: 0, z: -0.97732204}
+    NextSegmentLen: 0.12634411
+    DistanceFromOrigin: 10.493513
+  - Position: {x: 4.825179, y: 0.09304333, z: -3.1185017}
+    Camber: 0
+    SegmentAxisX: {x: 0.9735964, y: 0, z: -0.22827639}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.22827639, y: 0, z: -0.9735964}
+    NextSegmentLen: 0.12500149
+    DistanceFromOrigin: 10.619857
+  - Position: {x: 4.796644, y: 0.09304333, z: -3.2402027}
+    Camber: 0
+    SegmentAxisX: {x: 0.9694626, y: 0, z: -0.24523921}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.24523921, y: 0.000000060247515, z: -0.9694626}
+    NextSegmentLen: 0.12366618
+    DistanceFromOrigin: 10.744859
+  - Position: {x: 4.7663164, y: 0.093043335, z: -3.3600924}
+    Camber: 0
+    SegmentAxisX: {x: 0.9648936, y: 0, z: -0.2626413}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.2626413, y: 0, z: -0.9648936}
+    NextSegmentLen: 0.12234051
+    DistanceFromOrigin: 10.868525
+  - Position: {x: 4.7341847, y: 0.093043335, z: -3.478138}
+    Camber: 0
+    SegmentAxisX: {x: 0.95985794, y: 0, z: -0.2804866}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.2804866, y: -0.00000006156206, z: -0.95985794}
+    NextSegmentLen: 0.12102552
+    DistanceFromOrigin: 10.990865
+  - Position: {x: 4.7002387, y: 0.09304333, z: -3.5943053}
+    Camber: 0
+    SegmentAxisX: {x: 0.95431924, y: 0, z: -0.29878882}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.29878882, y: 0, z: -0.95431924}
+    NextSegmentLen: 0.11972603
+    DistanceFromOrigin: 11.11189
+  - Position: {x: 4.664466, y: 0.09304333, z: -3.7085621}
+    Camber: 0
+    SegmentAxisX: {x: 0.94824463, y: 0, z: -0.3175409}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3175409, y: 0, z: -0.94824463}
+    NextSegmentLen: 0.1184431
+    DistanceFromOrigin: 11.231616
+  - Position: {x: 4.6268554, y: 0.09304333, z: -3.8208752}
+    Camber: 0
+    SegmentAxisX: {x: 0.94159865, y: 0, z: -0.33673722}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.33673722, y: 0, z: -0.94159865}
+    NextSegmentLen: 0.11717824
+    DistanceFromOrigin: 11.3500595
+  - Position: {x: 4.587397, y: 0.09304333, z: -3.93121}
+    Camber: 0
+    SegmentAxisX: {x: 0.93433726, y: 0, z: -0.35639003}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.35639003, y: 0.00000006426389, z: -0.93433726}
+    NextSegmentLen: 0.115937285
+    DistanceFromOrigin: 11.467237
+  - Position: {x: 4.546078, y: 0.093043335, z: -4.0395346}
+    Camber: 0
+    SegmentAxisX: {x: 0.9264264, y: 0, z: -0.37647608}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.37647608, y: -0.00000006494478, z: -0.9264264}
+    NextSegmentLen: 0.114721775
+    DistanceFromOrigin: 11.583175
+  - Position: {x: 4.502888, y: 0.09304333, z: -4.145816}
+    Camber: 0
+    SegmentAxisX: {x: 0.9178186, y: 0, z: -0.39699998}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.39699998, y: -0.00000006562417, z: -0.9178186}
+    NextSegmentLen: 0.11353409
+    DistanceFromOrigin: 11.697897
+  - Position: {x: 4.457815, y: 0.09304332, z: -4.2500196}
+    Camber: 0
+    SegmentAxisX: {x: 0.9084819, y: 0, z: -0.41792423}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.41792423, y: 0, z: -0.9084819}
+    NextSegmentLen: 0.1123794
+    DistanceFromOrigin: 11.811431
+  - Position: {x: 4.410849, y: 0.09304332, z: -4.352114}
+    Camber: 0
+    SegmentAxisX: {x: 0.8983632, y: 0, z: -0.43925342}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.43925342, y: 0.00000006696655, z: -0.8983632}
+    NextSegmentLen: 0.111258246
+    DistanceFromOrigin: 11.92381
+  - Position: {x: 4.3619785, y: 0.09304333, z: -4.4520645}
+    Camber: 0
+    SegmentAxisX: {x: 0.88741857, y: 0, z: -0.46096462}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.46096462, y: 0, z: -0.88741857}
+    NextSegmentLen: 0.110177495
+    DistanceFromOrigin: 12.0350685
+  - Position: {x: 4.3111906, y: 0.09304333, z: -4.549838}
+    Camber: 0
+    SegmentAxisX: {x: 0.87561595, y: 0, z: -0.48300806}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.48300806, y: 0.00000006826652, z: -0.87561595}
+    NextSegmentLen: 0.10913959
+    DistanceFromOrigin: 12.145246
+  - Position: {x: 4.2584753, y: 0.093043335, z: -4.6454024}
+    Camber: 0
+    SegmentAxisX: {x: 0.8629025, y: 0, z: -0.5053704}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5053704, y: -0.000000068892696, z: -0.8629025}
+    NextSegmentLen: 0.10814761
+    DistanceFromOrigin: 12.254385
+  - Position: {x: 4.2038207, y: 0.09304333, z: -4.7387233}
+    Camber: 0
+    SegmentAxisX: {x: 0.8492501, y: 0, z: -0.5279908}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5279908, y: 0, z: -0.8492501}
+    NextSegmentLen: 0.10720623
+    DistanceFromOrigin: 12.362533
+  - Position: {x: 4.147217, y: 0.09304333, z: -4.829768}
+    Camber: 0
+    SegmentAxisX: {x: 0.8346074, y: 0, z: -0.55084515}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.55084515, y: 0, z: -0.8346074}
+    NextSegmentLen: 0.10631957
+    DistanceFromOrigin: 12.469739
+  - Position: {x: 4.088651, y: 0.09304333, z: -4.9185033}
+    Camber: 0
+    SegmentAxisX: {x: 0.8189471, y: 0, z: -0.5738691}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5738691, y: -0.00000007062733, z: -0.8189471}
+    NextSegmentLen: 0.10549147
+    DistanceFromOrigin: 12.576058
+  - Position: {x: 4.028113, y: 0.09304332, z: -5.004895}
+    Camber: 0
+    SegmentAxisX: {x: 0.8022395, y: 0, z: -0.5970024}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5970024, y: 0, z: -0.8022395}
+    NextSegmentLen: 0.10472724
+    DistanceFromOrigin: 12.68155
+  - Position: {x: 3.9655905, y: 0.09304332, z: -5.0889115}
+    Camber: 0
+    SegmentAxisX: {x: 0.78445816, y: 0, z: -0.6201818}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.6201818, y: 0.000000071619816, z: -0.78445816}
+    NextSegmentLen: 0.104029596
+    DistanceFromOrigin: 12.786277
+  - Position: {x: 3.9010732, y: 0.09304333, z: -5.1705184}
+    Camber: 0
+    SegmentAxisX: {x: 0.7655898, y: 0, z: -0.64332914}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.64332914, y: -0.00000007205231, z: -0.7655898}
+    NextSegmentLen: 0.10340516
+    DistanceFromOrigin: 12.890306
+  - Position: {x: 3.8345497, y: 0.09304332, z: -5.2496843}
+    Camber: 0
+    SegmentAxisX: {x: 0.7456011, y: 0, z: -0.66639245}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.66639245, y: 0.00000007243774, z: -0.7456011}
+    NextSegmentLen: 0.10285495
+    DistanceFromOrigin: 12.993711
+  - Position: {x: 3.766008, y: 0.09304333, z: -5.326373}
+    Camber: 0
+    SegmentAxisX: {x: 0.7245169, y: 0, z: -0.68925697}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.68925697, y: 0, z: -0.7245169}
+    NextSegmentLen: 0.102386296
+    DistanceFromOrigin: 13.096566
+  - Position: {x: 3.6954374, y: 0.09304333, z: -5.4005537}
+    Camber: 0
+    SegmentAxisX: {x: 0.70232594, y: 0, z: -0.7118555}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.7118555, y: 0, z: -0.70232594}
+    NextSegmentLen: 0.102001905
+    DistanceFromOrigin: 13.198953
+  - Position: {x: 3.6228268, y: 0.09304333, z: -5.4721923}
+    Camber: 0
+    SegmentAxisX: {x: 0.6790454, y: 0, z: -0.7340963}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.7340963, y: 0, z: -0.6790454}
+    NextSegmentLen: 0.10170629
+    DistanceFromOrigin: 13.300955
+  - Position: {x: 3.5481646, y: 0.09304333, z: -5.5412555}
+    Camber: 0
+    SegmentAxisX: {x: 0.6547021, y: 0, z: -0.755887}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.755887, y: 0, z: -0.6547021}
+    NextSegmentLen: 0.101503275
+    DistanceFromOrigin: 13.402661
+  - Position: {x: 3.4714396, y: 0.09304333, z: -5.60771}
+    Camber: 0
+    SegmentAxisX: {x: 0.6293402, y: 0, z: -0.77713}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.77713, y: 0, z: -0.6293402}
+    NextSegmentLen: 0.10139777
+    DistanceFromOrigin: 13.504165
+  - Position: {x: 3.3926404, y: 0.09304333, z: -5.6715236}
+    Camber: 0
+    SegmentAxisX: {x: 0.60299104, y: 0, z: -0.79774797}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.79774797, y: 0, z: -0.60299104}
+    NextSegmentLen: 0.10139069
+    DistanceFromOrigin: 13.605562
+  - Position: {x: 3.3117561, y: 0.09304333, z: -5.7326612}
+    Camber: 0
+    SegmentAxisX: {x: 0.575728, y: 0, z: -0.8176413}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8176413, y: 0, z: -0.575728}
+    NextSegmentLen: 0.101488404
+    DistanceFromOrigin: 13.706953
+  - Position: {x: 3.228775, y: 0.09304333, z: -5.791091}
+    Camber: 0
+    SegmentAxisX: {x: 0.54761744, y: 0, z: -0.8367288}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8367288, y: 0, z: -0.54761744}
+    NextSegmentLen: 0.101692125
+    DistanceFromOrigin: 13.808441
+  - Position: {x: 3.1436863, y: 0.09304333, z: -5.8467793}
+    Camber: 0
+    SegmentAxisX: {x: 0.5187385, y: 0, z: -0.8549329}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8549329, y: 0, z: -0.5187385}
+    NextSegmentLen: 0.10200542
+    DistanceFromOrigin: 13.910133
+  - Position: {x: 3.0564785, y: 0.09304333, z: -5.8996935}
+    Camber: 0
+    SegmentAxisX: {x: 0.48917708, y: 0, z: -0.87218446}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.87218446, y: 0, z: -0.48917708}
+    NextSegmentLen: 0.10243024
+    DistanceFromOrigin: 14.012138
+  - Position: {x: 2.9671404, y: 0.09304333, z: -5.9498}
+    Camber: 0
+    SegmentAxisX: {x: 0.4590266, y: 0, z: -0.88842255}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.88842255, y: 0, z: -0.4590266}
+    NextSegmentLen: 0.10296904
+    DistanceFromOrigin: 14.114569
+  - Position: {x: 2.8756604, y: 0.09304333, z: -5.9970655}
+    Camber: 0
+    SegmentAxisX: {x: 0.4283877, y: 0, z: -0.90359503}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.90359503, y: 0.00000007190106, z: -0.4283877}
+    NextSegmentLen: 0.103622675
+    DistanceFromOrigin: 14.217538
+  - Position: {x: 2.7820275, y: 0.093043335, z: -6.041456}
+    Camber: 0
+    SegmentAxisX: {x: 0.39737713, y: 0, z: -0.9176554}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9176554, y: -0.00000007137048, z: -0.39737713}
+    NextSegmentLen: 0.10439303
+    DistanceFromOrigin: 14.32116
+  - Position: {x: 2.6862307, y: 0.09304333, z: -6.0829396}
+    Camber: 0
+    SegmentAxisX: {x: 0.36609647, y: 0, z: -0.9305769}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9305769, y: -0.00000007076811, z: -0.36609647}
+    NextSegmentLen: 0.10528161
+    DistanceFromOrigin: 14.425553
+  - Position: {x: 2.588258, y: 0.09304332, z: -6.121483}
+    Camber: 0
+    SegmentAxisX: {x: 0.33464357, y: 0, z: -0.9423448}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9423448, y: 0.00000007009875, z: -0.33464357}
+    NextSegmentLen: 0.10628693
+    DistanceFromOrigin: 14.530835
+  - Position: {x: 2.488099, y: 0.09304333, z: -6.157051}
+    Camber: 0
+    SegmentAxisX: {x: 0.30315822, y: 0, z: -0.9529403}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9529403, y: 0, z: -0.30315822}
+    NextSegmentLen: 0.107411675
+    DistanceFromOrigin: 14.637122
+  - Position: {x: 2.3857422, y: 0.09304333, z: -6.189614}
+    Camber: 0
+    SegmentAxisX: {x: 0.27170283, y: 0, z: -0.96238124}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.96238124, y: 0, z: -0.27170283}
+    NextSegmentLen: 0.10865351
+    DistanceFromOrigin: 14.744534
+  - Position: {x: 2.281176, y: 0.09304333, z: -6.2191353}
+    Camber: 0
+    SegmentAxisX: {x: 0.24040508, y: 0, z: -0.97067267}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.97067267, y: 0, z: -0.24040508}
+    NextSegmentLen: 0.110013366
+    DistanceFromOrigin: 14.853187
+  - Position: {x: 2.1743891, y: 0.09304333, z: -6.245583}
+    Camber: 0
+    SegmentAxisX: {x: 0.2093626, y: 0, z: -0.9778381}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9778381, y: 0, z: -0.2093626}
+    NextSegmentLen: 0.11148914
+    DistanceFromOrigin: 14.9632
+  - Position: {x: 2.0653708, y: 0.09304333, z: -6.2689247}
+    Camber: 0
+    SegmentAxisX: {x: 0.17864053, y: 0, z: -0.98391443}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.98391443, y: 0, z: -0.17864053}
+    NextSegmentLen: 0.11308033
+    DistanceFromOrigin: 15.074689
+  - Position: {x: 1.9541094, y: 0.09304333, z: -6.2891254}
+    Camber: 0
+    SegmentAxisX: {x: 0.14834437, y: 0, z: -0.98893577}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.98893577, y: 0, z: -0.14834437}
+    NextSegmentLen: 0.11478599
+    DistanceFromOrigin: 15.187769
+  - Position: {x: 1.8405935, y: 0.09304333, z: -6.3061533}
+    Camber: 0
+    SegmentAxisX: {x: 0.118535414, y: 0, z: -0.9929498}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9929498, y: 0, z: -0.118535414}
+    NextSegmentLen: 0.11660314
+    DistanceFromOrigin: 15.302555
+  - Position: {x: 1.7248124, y: 0.09304333, z: -6.319975}
+    Camber: 0
+    SegmentAxisX: {x: 0.0892755, y: 0, z: -0.99600697}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.99600697, y: 0, z: -0.0892755}
+    NextSegmentLen: 0.11853162
+    DistanceFromOrigin: 15.419158
+  - Position: {x: 1.6067541, y: 0.09304333, z: -6.330557}
+    Camber: 0
+    SegmentAxisX: {x: 0.060625095, y: 0, z: -0.9981606}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9981606, y: 0, z: -0.060625095}
+    NextSegmentLen: 0.12056784
+    DistanceFromOrigin: 15.537689
+  - Position: {x: 1.486408, y: 0.09304333, z: -6.3378663}
+    Camber: 0
+    SegmentAxisX: {x: 0.03262177, y: 0, z: -0.99946773}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.99946773, y: 0, z: -0.03262177}
+    NextSegmentLen: 0.12271093
+    DistanceFromOrigin: 15.6582575
+  - Position: {x: 1.3637624, y: 0.09304333, z: -6.3418694}
+    Camber: 0
+    SegmentAxisX: {x: 0.0053156638, y: 0, z: -0.9999859}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9999859, y: 0, z: -0.0053156638}
+    NextSegmentLen: 0.1249579
+    DistanceFromOrigin: 15.780969
+  - Position: {x: 1.2388062, y: 0.09304333, z: -6.3425336}
+    Camber: 0
+    SegmentAxisX: {x: -0.021278594, y: 0, z: -0.9997736}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9997736, y: 0, z: 0.021278594}
+    NextSegmentLen: 0.12730691
+    DistanceFromOrigin: 15.905927
+  - Position: {x: 1.1115282, y: 0.09304333, z: -6.3398247}
+    Camber: 0
+    SegmentAxisX: {x: -0.04712321, y: 0, z: -0.998889}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.998889, y: 0.000000057420273, z: 0.04712321}
+    NextSegmentLen: 0.12975523
+    DistanceFromOrigin: 16.033234
+  - Position: {x: 0.9819171, y: 0.093043335, z: -6.33371}
+    Camber: 0
+    SegmentAxisX: {x: -0.07220986, y: 0, z: -0.99738944}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.99738944, y: -0.0000000563154, z: 0.07220986}
+    NextSegmentLen: 0.13230094
+    DistanceFromOrigin: 16.162989
+  - Position: {x: 0.8499615, y: 0.09304333, z: -6.3241568}
+    Camber: 0
+    SegmentAxisX: {x: -0.096525505, y: 0, z: -0.9953305}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9953305, y: 0, z: 0.096525505}
+    NextSegmentLen: 0.13494137
+    DistanceFromOrigin: 16.29529
+  - Position: {x: 0.71565026, y: 0.09304333, z: -6.3111315}
+    Camber: 0
+    SegmentAxisX: {x: -0.12008006, y: 0, z: -0.9927642}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9927642, y: 0, z: 0.12008006}
+    NextSegmentLen: 0.13767435
+    DistanceFromOrigin: 16.430231
+  - Position: {x: 0.5789721, y: 0.09304333, z: -6.2945995}
+    Camber: 0
+    SegmentAxisX: {x: -0.14284363, y: 0, z: -0.98974526}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.98974526, y: 0, z: 0.14284363}
+    NextSegmentLen: 0.14049715
+    DistanceFromOrigin: 16.567905
+  - Position: {x: 0.43991572, y: 0.09304333, z: -6.2745304}
+    Camber: 0
+    SegmentAxisX: {x: -0.1648554, y: 0, z: -0.98631775}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.98631775, y: 0, z: 0.1648554}
+    NextSegmentLen: 0.14340802
+    DistanceFromOrigin: 16.708403
+  - Position: {x: 0.29846984, y: 0.09304333, z: -6.250889}
+    Camber: 0
+    SegmentAxisX: {x: -0.1861044, y: 0, z: -0.98253}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.98253, y: -0.000000050890467, z: 0.1861044}
+    NextSegmentLen: 0.14640425
+    DistanceFromOrigin: 16.85181
+  - Position: {x: 0.15462327, y: 0.09304332, z: -6.2236423}
+    Camber: 0
+    SegmentAxisX: {x: -0.2120623, y: 0, z: -0.9772562}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9772562, y: 0.000000032115704, z: 0.2120623}
+    NextSegmentLen: 0.23199183
+    DistanceFromOrigin: 16.998215
+  - Position: {x: -0.072092175, y: 0.09304333, z: -6.1744456}
+    Camber: 0
+    SegmentAxisX: {x: -0.23173611, y: 0, z: -0.9727787}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9727787, y: -0.00000004713701, z: 0.23173611}
+    NextSegmentLen: 0.15806222
+    DistanceFromOrigin: 17.230207
+  - Position: {x: -0.22585173, y: 0.09304332, z: -6.137817}
+    Camber: 0
+    SegmentAxisX: {x: -0.24121343, y: 0, z: -0.9704721}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9704721, y: 0.00000009712812, z: 0.24121343}
+    NextSegmentLen: 0.15341757
+    DistanceFromOrigin: 17.38827
+  - Position: {x: -0.3747392, y: 0.093043335, z: -6.1008105}
+    Camber: 0
+    SegmentAxisX: {x: -0.2512903, y: 0, z: -0.9679118}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9679118, y: -0.00000005004028, z: 0.2512903}
+    NextSegmentLen: 0.14889166
+    DistanceFromOrigin: 17.541687
+  - Position: {x: -0.5188532, y: 0.09304333, z: -6.0633955}
+    Camber: 0
+    SegmentAxisX: {x: -0.2619917, y: 0, z: -0.9650701}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9650701, y: -0.000000051566023, z: 0.2619917}
+    NextSegmentLen: 0.14448623
+    DistanceFromOrigin: 17.690578
+  - Position: {x: -0.65829253, y: 0.09304332, z: -6.0255413}
+    Camber: 0
+    SegmentAxisX: {x: -0.27333283, y: 0, z: -0.96191955}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.96191955, y: 0.00000010628306, z: 0.27333283}
+    NextSegmentLen: 0.1402026
+    DistanceFromOrigin: 17.835064
+  - Position: {x: -0.79315615, y: 0.093043335, z: -5.9872193}
+    Camber: 0
+    SegmentAxisX: {x: -0.28537858, y: 0, z: -0.9584148}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9584148, y: 0, z: 0.28537858}
+    NextSegmentLen: 0.13604413
+    DistanceFromOrigin: 17.975267
+  - Position: {x: -0.92354286, y: 0.093043335, z: -5.9483953}
+    Camber: 0
+    SegmentAxisX: {x: -0.29812077, y: 0, z: -0.9545281}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9545281, y: -0.000000056439006, z: 0.29812077}
+    NextSegmentLen: 0.13201119
+    DistanceFromOrigin: 18.111311
+  - Position: {x: -1.0495512, y: 0.09304333, z: -5.90904}
+    Camber: 0
+    SegmentAxisX: {x: -0.3115952, y: 0, z: -0.950215}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.950215, y: 0, z: 0.3115952}
+    NextSegmentLen: 0.12810682
+    DistanceFromOrigin: 18.243322
+  - Position: {x: -1.1712803, y: 0.09304333, z: -5.8691225}
+    Camber: 0
+    SegmentAxisX: {x: -0.32582036, y: 0, z: -0.9454317}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9454317, y: 0, z: 0.32582036}
+    NextSegmentLen: 0.12433286
+    DistanceFromOrigin: 18.37143
+  - Position: {x: -1.2888285, y: 0.09304333, z: -5.8286123}
+    Camber: 0
+    SegmentAxisX: {x: -0.3408087, y: 0, z: -0.9401327}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9401327, y: 0, z: 0.3408087}
+    NextSegmentLen: 0.120692134
+    DistanceFromOrigin: 18.495762
+  - Position: {x: -1.4022951, y: 0.09304333, z: -5.7874794}
+    Camber: 0
+    SegmentAxisX: {x: -0.35659933, y: 0, z: -0.93425745}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.93425745, y: 0, z: 0.35659933}
+    NextSegmentLen: 0.1171877
+    DistanceFromOrigin: 18.616453
+  - Position: {x: -1.5117786, y: 0.09304333, z: -5.7456903}
+    Camber: 0
+    SegmentAxisX: {x: -0.37315604, y: 0, z: -0.92776865}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.92776865, y: -0.00000006545899, z: 0.37315604}
+    NextSegmentLen: 0.11382058
+    DistanceFromOrigin: 18.73364
+  - Position: {x: -1.6173778, y: 0.09304332, z: -5.7032175}
+    Camber: 0
+    SegmentAxisX: {x: -0.39050993, y: 0, z: -0.9205987}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9205987, y: 0.00000013473591, z: 0.39050993}
+    NextSegmentLen: 0.11059532
+    DistanceFromOrigin: 18.847462
+  - Position: {x: -1.7191917, y: 0.093043335, z: -5.660029}
+    Camber: 0
+    SegmentAxisX: {x: -0.4086549, y: 0, z: -0.912689}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.912689, y: -0.0000000692985, z: 0.4086549}
+    NextSegmentLen: 0.107514314
+    DistanceFromOrigin: 18.958057
+  - Position: {x: -1.8173188, y: 0.09304333, z: -5.6160927}
+    Camber: 0
+    SegmentAxisX: {x: -0.42755312, y: 0, z: -0.9039902}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.9039902, y: 0, z: 0.42755312}
+    NextSegmentLen: 0.104579985
+    DistanceFromOrigin: 19.06557
+  - Position: {x: -1.9118581, y: 0.09304333, z: -5.571379}
+    Camber: 0
+    SegmentAxisX: {x: -0.44717985, y: 0, z: -0.89444405}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.89444405, y: -0.000000073191835, z: 0.44717985}
+    NextSegmentLen: 0.10179524
+    DistanceFromOrigin: 19.17015
+  - Position: {x: -2.0029082, y: 0.09304332, z: -5.5258584}
+    Camber: 0
+    SegmentAxisX: {x: -0.46751606, y: 0, z: -0.88398457}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.88398457, y: -0.00000007513359, z: 0.46751606}
+    NextSegmentLen: 0.09916444
+    DistanceFromOrigin: 19.271946
+  - Position: {x: -2.090568, y: 0.09304331, z: -5.4794974}
+    Camber: 0
+    SegmentAxisX: {x: -0.48846537, y: 0, z: -0.8725833}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8725833, y: 0.0000001541157, z: 0.48846537}
+    NextSegmentLen: 0.09668815
+    DistanceFromOrigin: 19.37111
+  - Position: {x: -2.1749365, y: 0.09304333, z: -5.4322686}
+    Camber: 0
+    SegmentAxisX: {x: -0.5100089, y: 0, z: -0.8601692}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8601692, y: 0, z: 0.5100089}
+    NextSegmentLen: 0.09437191
+    DistanceFromOrigin: 19.467798
+  - Position: {x: -2.2561123, y: 0.09304333, z: -5.384138}
+    Camber: 0
+    SegmentAxisX: {x: -0.53203225, y: 0, z: -0.84672403}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.84672403, y: 0.00000008079428, z: 0.53203225}
+    NextSegmentLen: 0.092216685
+    DistanceFromOrigin: 19.56217
+  - Position: {x: -2.3341944, y: 0.093043335, z: -5.335076}
+    Camber: 0
+    SegmentAxisX: {x: -0.5544343, y: 0, z: -0.83222747}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.83222747, y: 0.00000008257903, z: 0.5544343}
+    NextSegmentLen: 0.09022364
+    DistanceFromOrigin: 19.654387
+  - Position: {x: -2.409281, y: 0.09304334, z: -5.285053}
+    Camber: 0
+    SegmentAxisX: {x: -0.5771355, y: 0, z: -0.8166484}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8166484, y: -0.00000033713707, z: 0.5771355}
+    NextSegmentLen: 0.08839824
+    DistanceFromOrigin: 19.74461
+  - Position: {x: -2.4814713, y: 0.09304331, z: -5.234035}
+    Camber: 0
+    SegmentAxisX: {x: -0.5999648, y: 0, z: -0.8000264}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.8000264, y: 0.00000017179391, z: 0.5999648}
+    NextSegmentLen: 0.08673859
+    DistanceFromOrigin: 19.833008
+  - Position: {x: -2.5508645, y: 0.09304333, z: -5.181995}
+    Camber: 0
+    SegmentAxisX: {x: -0.62282276, y: 0, z: -0.7823629}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.7823629, y: 0.00000008739969, z: 0.62282276}
+    NextSegmentLen: 0.08524722
+    DistanceFromOrigin: 19.919746
+  - Position: {x: -2.6175587, y: 0.093043335, z: -5.128901}
+    Camber: 0
+    SegmentAxisX: {x: -0.6455707, y: 0, z: -0.7637005}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.7637005, y: -0.00000008877563, z: 0.6455707}
+    NextSegmentLen: 0.08392597
+    DistanceFromOrigin: 20.004993
+  - Position: {x: -2.681653, y: 0.09304333, z: -5.074721}
+    Camber: 0
+    SegmentAxisX: {x: -0.66804755, y: 0, z: -0.7441185}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.7441185, y: -0.000000090012016, z: 0.66804755}
+    NextSegmentLen: 0.08277318
+    DistanceFromOrigin: 20.088919
+  - Position: {x: -2.743246, y: 0.09304332, z: -5.0194244}
+    Camber: 0
+    SegmentAxisX: {x: -0.6901001, y: 0, z: -0.72371393}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.72371393, y: 0.0000001821929, z: 0.6901001}
+    NextSegmentLen: 0.081787825
+    DistanceFromOrigin: 20.171692
+  - Position: {x: -2.802437, y: 0.093043335, z: -4.9629827}
+    Camber: 0
+    SegmentAxisX: {x: -0.7116107, y: 0, z: -0.702574}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.702574, y: 0, z: 0.7116107}
+    NextSegmentLen: 0.08097064
+    DistanceFromOrigin: 20.253479
+  - Position: {x: -2.859325, y: 0.093043335, z: -4.905363}
+    Camber: 0
+    SegmentAxisX: {x: -0.7324477, y: 0, z: -0.6808233}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.6808233, y: -0.00000009276412, z: 0.7324477}
+    NextSegmentLen: 0.08031748
+    DistanceFromOrigin: 20.33445
+  - Position: {x: -2.914007, y: 0.09304333, z: -4.8465347}
+    Camber: 0
+    SegmentAxisX: {x: -0.75246495, y: 0, z: -0.6586323}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.6586323, y: -0.000000093333846, z: 0.75246495}
+    NextSegmentLen: 0.07982721
+    DistanceFromOrigin: 20.414766
+  - Position: {x: -2.9665837, y: 0.09304332, z: -4.7864676}
+    Camber: 0
+    SegmentAxisX: {x: -0.7715785, y: 0, z: -0.636134}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.636134, y: 0.00000009372334, z: 0.7715785}
+    NextSegmentLen: 0.07949547
+    DistanceFromOrigin: 20.494593
+  - Position: {x: -3.0171535, y: 0.09304333, z: -4.7251306}
+    Camber: 0
+    SegmentAxisX: {x: -0.78969103, y: 0, z: -0.61350477}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.61350477, y: 0.000000093933544, z: 0.78969103}
+    NextSegmentLen: 0.07931757
+    DistanceFromOrigin: 20.57409
+  - Position: {x: -3.0658152, y: 0.093043335, z: -4.662494}
+    Camber: 0
+    SegmentAxisX: {x: -0.80676085, y: 0, z: -0.5908781}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5908781, y: 0, z: 0.80676085}
+    NextSegmentLen: 0.07929073
+    DistanceFromOrigin: 20.653406
+  - Position: {x: -3.1126664, y: 0.093043335, z: -4.5985255}
+    Camber: 0
+    SegmentAxisX: {x: -0.8227162, y: 0, z: -0.5684524}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5684524, y: -0.00000018764966, z: 0.8227162}
+    NextSegmentLen: 0.07940947
+    DistanceFromOrigin: 20.732697
+  - Position: {x: -3.1578069, y: 0.09304332, z: -4.533194}
+    Camber: 0
+    SegmentAxisX: {x: -0.83752674, y: 0, z: -0.5463963}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5463963, y: 0.00000009352206, z: 0.83752674}
+    NextSegmentLen: 0.079666555
+    DistanceFromOrigin: 20.812105
+  - Position: {x: -3.2013364, y: 0.09304333, z: -4.466471}
+    Camber: 0
+    SegmentAxisX: {x: -0.8512159, y: 0, z: -0.52481574}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.52481574, y: 0.00000018612809, z: 0.8512159}
+    NextSegmentLen: 0.080058634
+    DistanceFromOrigin: 20.891771
+  - Position: {x: -3.2433524, y: 0.09304334, z: -4.398324}
+    Camber: 0
+    SegmentAxisX: {x: -0.86377954, y: 0, z: -0.5038699}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.5038699, y: -0.00000018492865, z: 0.86377954}
+    NextSegmentLen: 0.080577895
+    DistanceFromOrigin: 20.97183
+  - Position: {x: -3.2839532, y: 0.09304333, z: -4.3287225}
+    Camber: 0
+    SegmentAxisX: {x: -0.87523484, y: 0, z: -0.4836982}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.4836982, y: 0, z: 0.87523484}
+    NextSegmentLen: 0.08122035
+    DistanceFromOrigin: 21.052408
+  - Position: {x: -3.3232393, y: 0.09304333, z: -4.2576356}
+    Camber: 0
+    SegmentAxisX: {x: -0.8856359, y: 0, z: -0.46438026}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.46438026, y: -0.00000009088502, z: 0.8856359}
+    NextSegmentLen: 0.0819781
+    DistanceFromOrigin: 21.133629
+  - Position: {x: -3.3613083, y: 0.09304332, z: -4.185033}
+    Camber: 0
+    SegmentAxisX: {x: -0.8950227, y: 0, z: -0.44602063}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.44602063, y: 0, z: 0.8950227}
+    NextSegmentLen: 0.08284609
+    DistanceFromOrigin: 21.215607
+  - Position: {x: -3.3982594, y: 0.09304332, z: -4.1108837}
+    Camber: 0
+    SegmentAxisX: {x: -0.90345323, y: 0, z: -0.4286866}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.4286866, y: 0.00000008888897, z: 0.90345323}
+    NextSegmentLen: 0.08381896
+    DistanceFromOrigin: 21.298452
+  - Position: {x: -3.4341915, y: 0.09304333, z: -4.035157}
+    Camber: 0
+    SegmentAxisX: {x: -0.9109913, y: 0, z: -0.4124256}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.4124256, y: 0, z: 0.9109913}
+    NextSegmentLen: 0.08489117
+    DistanceFromOrigin: 21.38227
+  - Position: {x: -3.4692028, y: 0.09304333, z: -3.957822}
+    Camber: 0
+    SegmentAxisX: {x: -0.91769284, y: 0, z: -0.39729077}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.39729077, y: 0, z: 0.91769284}
+    NextSegmentLen: 0.08605713
+    DistanceFromOrigin: 21.467161
+  - Position: {x: -3.5033925, y: 0.09304333, z: -3.878848}
+    Camber: 0
+    SegmentAxisX: {x: -0.9236222, y: 0, z: -0.3833041}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3833041, y: 0, z: 0.9236222}
+    NextSegmentLen: 0.08731264
+    DistanceFromOrigin: 21.553219
+  - Position: {x: -3.5368598, y: 0.09304333, z: -3.7982042}
+    Camber: 0
+    SegmentAxisX: {x: -0.92884296, y: 0, z: -0.3704738}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3704738, y: 0, z: 0.92884296}
+    NextSegmentLen: 0.08865229
+    DistanceFromOrigin: 21.640532
+  - Position: {x: -3.569703, y: 0.09304333, z: -3.7158601}
+    Camber: 0
+    SegmentAxisX: {x: -0.93341684, y: 0, z: -0.3587937}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3587937, y: 0, z: 0.93341684}
+    NextSegmentLen: 0.090073034
+    DistanceFromOrigin: 21.729183
+  - Position: {x: -3.6020207, y: 0.09304333, z: -3.6317844}
+    Camber: 0
+    SegmentAxisX: {x: -0.9373939, y: 0, z: -0.34827107}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.34827107, y: 0, z: 0.9373939}
+    NextSegmentLen: 0.091570474
+    DistanceFromOrigin: 21.819256
+  - Position: {x: -3.633912, y: 0.09304333, z: -3.5459468}
+    Camber: 0
+    SegmentAxisX: {x: -0.9408297, y: 0, z: -0.3388797}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3388797, y: 0.00000007999208, z: 0.9408297}
+    NextSegmentLen: 0.09314148
+    DistanceFromOrigin: 21.910826
+  - Position: {x: -3.6654758, y: 0.093043335, z: -3.4583166}
+    Camber: 0
+    SegmentAxisX: {x: -0.94377416, y: 0, z: -0.33059096}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.33059096, y: -0.00000007860613, z: 0.94377416}
+    NextSegmentLen: 0.09478371
+    DistanceFromOrigin: 22.003967
+  - Position: {x: -3.6968105, y: 0.09304333, z: -3.3688622}
+    Camber: 0
+    SegmentAxisX: {x: -0.9462662, y: 0, z: -0.32338881}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.32338881, y: 0, z: 0.9462662}
+    NextSegmentLen: 0.096493565
+    DistanceFromOrigin: 22.098751
+  - Position: {x: -3.7280154, y: 0.09304333, z: -3.2775536}
+    Camber: 0
+    SegmentAxisX: {x: -0.9483494, y: 0, z: -0.31722766}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.31722766, y: 0, z: 0.9483494}
+    NextSegmentLen: 0.098269194
+    DistanceFromOrigin: 22.195244
+  - Position: {x: -3.7591891, y: 0.09304333, z: -3.18436}
+    Camber: 0
+    SegmentAxisX: {x: -0.9500589, y: 0, z: -0.3120708}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3120708, y: 0, z: 0.9500589}
+    NextSegmentLen: 0.10010927
+    DistanceFromOrigin: 22.293512
+  - Position: {x: -3.7904303, y: 0.09304333, z: -3.0892503}
+    Camber: 0
+    SegmentAxisX: {x: -0.951424, y: 0, z: -0.30788374}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30788374, y: 0, z: 0.951424}
+    NextSegmentLen: 0.10201121
+    DistanceFromOrigin: 22.393621
+  - Position: {x: -3.821838, y: 0.09304333, z: -2.9921944}
+    Camber: 0
+    SegmentAxisX: {x: -0.95247537, y: 0, z: -0.30461565}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30461565, y: 0, z: 0.95247537}
+    NextSegmentLen: 0.103975214
+    DistanceFromOrigin: 22.495632
+  - Position: {x: -3.8535104, y: 0.09304333, z: -2.8931606}
+    Camber: 0
+    SegmentAxisX: {x: -0.95323443, y: 0, z: -0.30223173}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30223173, y: 0, z: 0.95323443}
+    NextSegmentLen: 0.10599914
+    DistanceFromOrigin: 22.599607
+  - Position: {x: -3.8855467, y: 0.09304333, z: -2.7921185}
+    Camber: 0
+    SegmentAxisX: {x: -0.95372206, y: 0, z: -0.3006896}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3006896, y: 0, z: 0.95372206}
+    NextSegmentLen: 0.10808259
+    DistanceFromOrigin: 22.705606
+  - Position: {x: -3.918046, y: 0.09304333, z: -2.6890378}
+    Camber: 0
+    SegmentAxisX: {x: -0.95395845, y: 0, z: -0.2999388}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.2999388, y: 0, z: 0.95395845}
+    NextSegmentLen: 0.11022591
+    DistanceFromOrigin: 22.813688
+  - Position: {x: -3.951107, y: 0.09304333, z: -2.5838869}
+    Camber: 0
+    SegmentAxisX: {x: -0.9539601, y: 0, z: -0.29993364}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.29993364, y: 0, z: 0.9539601}
+    NextSegmentLen: 0.11242731
+    DistanceFromOrigin: 22.923914
+  - Position: {x: -3.9848278, y: 0.09304333, z: -2.4766357}
+    Camber: 0
+    SegmentAxisX: {x: -0.9537366, y: 0, z: -0.30064332}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30064332, y: 0, z: 0.9537366}
+    NextSegmentLen: 0.11468851
+    DistanceFromOrigin: 23.03634
+  - Position: {x: -4.019308, y: 0.09304333, z: -2.367253}
+    Camber: 0
+    SegmentAxisX: {x: -0.953303, y: 0, z: -0.3020155}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3020155, y: 0, z: 0.953303}
+    NextSegmentLen: 0.11700856
+    DistanceFromOrigin: 23.15103
+  - Position: {x: -4.0546465, y: 0.09304333, z: -2.2557085}
+    Camber: 0
+    SegmentAxisX: {x: -0.9526717, y: 0, z: -0.30400088}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30400088, y: 0, z: 0.9526717}
+    NextSegmentLen: 0.11938776
+    DistanceFromOrigin: 23.268038
+  - Position: {x: -4.0909405, y: 0.09304333, z: -2.141971}
+    Camber: 0
+    SegmentAxisX: {x: -0.9518434, y: 0, z: -0.30658478}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30658478, y: 0, z: 0.9518434}
+    NextSegmentLen: 0.12182815
+    DistanceFromOrigin: 23.387426
+  - Position: {x: -4.128291, y: 0.09304333, z: -2.0260098}
+    Camber: 0
+    SegmentAxisX: {x: -0.9508339, y: 0, z: -0.30970132}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30970132, y: 0, z: 0.9508339}
+    NextSegmentLen: 0.12432817
+    DistanceFromOrigin: 23.509254
+  - Position: {x: -4.1667957, y: 0.09304333, z: -1.9077944}
+    Camber: 0
+    SegmentAxisX: {x: -0.94964623, y: 0, z: -0.31332418}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.31332418, y: 0, z: 0.94964623}
+    NextSegmentLen: 0.12689008
+    DistanceFromOrigin: 23.633583
+  - Position: {x: -4.2065535, y: 0.09304333, z: -1.7872937}
+    Camber: 0
+    SegmentAxisX: {x: -0.94828707, y: 0, z: -0.31741405}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.31741405, y: 0, z: 0.94828707}
+    NextSegmentLen: 0.129514
+    DistanceFromOrigin: 23.760473
+  - Position: {x: -4.247663, y: 0.09304333, z: -1.6644772}
+    Camber: 0
+    SegmentAxisX: {x: -0.9467623, y: 0, z: -0.32193348}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.32193348, y: 0, z: 0.9467623}
+    NextSegmentLen: 0.13220154
+    DistanceFromOrigin: 23.889988
+  - Position: {x: -4.290223, y: 0.09304333, z: -1.5393138}
+    Camber: 0
+    SegmentAxisX: {x: -0.94507605, y: 0, z: -0.32685035}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.32685035, y: 0.00000005520882, z: 0.94507605}
+    NextSegmentLen: 0.13495272
+    DistanceFromOrigin: 24.02219
+  - Position: {x: -4.3343325, y: 0.093043335, z: -1.4117732}
+    Camber: 0
+    SegmentAxisX: {x: -0.9432318, y: 0, z: -0.33213526}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.33213526, y: -0.000000054079877, z: 0.9432318}
+    NextSegmentLen: 0.13776992
+    DistanceFromOrigin: 24.157143
+  - Position: {x: -4.3800907, y: 0.09304333, z: -1.2818242}
+    Camber: 0
+    SegmentAxisX: {x: -0.94123876, y: 0, z: -0.33774215}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.33774215, y: 0, z: 0.94123876}
+    NextSegmentLen: 0.14065294
+    DistanceFromOrigin: 24.294912
+  - Position: {x: -4.427595, y: 0.09304333, z: -1.1494362}
+    Camber: 0
+    SegmentAxisX: {x: -0.9390948, y: 0, z: -0.3436582}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.3436582, y: 0, z: 0.9390948}
+    NextSegmentLen: 0.14360413
+    DistanceFromOrigin: 24.435566
+  - Position: {x: -4.476946, y: 0.09304333, z: -1.0145783}
+    Camber: 0
+    SegmentAxisX: {x: -0.93680835, y: 0, z: -0.34984317}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.34984317, y: 0, z: 0.93680835}
+    NextSegmentLen: 0.14662364
+    DistanceFromOrigin: 24.57917
+  - Position: {x: -4.528241, y: 0.09304333, z: -0.8772201}
+    Camber: 0
+    SegmentAxisX: {x: -0.9343806, y: 0, z: -0.35627648}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.35627648, y: 0, z: 0.9343806}
+    NextSegmentLen: 0.14971372
+    DistanceFromOrigin: 24.725794
+  - Position: {x: -4.5815806, y: 0.09304333, z: -0.7373305}
+    Camber: 0
+    SegmentAxisX: {x: -0.93182206, y: 0, z: -0.36291552}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.36291552, y: -0.000000048736624, z: 0.93182206}
+    NextSegmentLen: 0.15287437
+    DistanceFromOrigin: 24.875507
+  - Position: {x: -4.637061, y: 0.09304332, z: -0.5948788}
+    Camber: 0
+    SegmentAxisX: {x: -0.9279954, y: 0, z: -0.37259194}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.37259194, y: 0.000000026270245, z: 0.9279954}
+    NextSegmentLen: 0.2836129
+    DistanceFromOrigin: 25.028381
+  - Position: {x: -4.742733, y: 0.09304333, z: -0.33168733}
+    Camber: 0
+    SegmentAxisX: {x: -0.93129814, y: 0, z: -0.36425793}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.36425793, y: 0.000000040624478, z: 0.93129814}
+    NextSegmentLen: 0.18340126
+    DistanceFromOrigin: 25.311995
+  - Position: {x: -4.8095384, y: 0.093043335, z: -0.16088608}
+    Camber: 0
+    SegmentAxisX: {x: -0.9423521, y: 0, z: -0.33462304}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.33462304, y: 0, z: 0.9423521}
+    NextSegmentLen: 0.181046
+    DistanceFromOrigin: 25.495396
+  - Position: {x: -4.8701205, y: 0.093043335, z: 0.009722986}
+    Camber: 0
+    SegmentAxisX: {x: -0.9524817, y: 0, z: -0.30459574}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.30459574, y: -0.00000008335114, z: 0.9524817}
+    NextSegmentLen: 0.17877573
+    DistanceFromOrigin: 25.676441
+  - Position: {x: -4.924575, y: 0.09304332, z: 0.1800036}
+    Camber: 0
+    SegmentAxisX: {x: -0.96166945, y: 0, z: -0.2742112}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.2742112, y: 0.000000042192774, z: 0.96166945}
+    NextSegmentLen: 0.17658427
+    DistanceFromOrigin: 25.855217
+  - Position: {x: -4.972996, y: 0.09304333, z: 0.3498193}
+    Camber: 0
+    SegmentAxisX: {x: -0.96989703, y: 0, z: -0.24351524}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.24351524, y: -0.000000042704947, z: 0.96989703}
+    NextSegmentLen: 0.17446645
+    DistanceFromOrigin: 26.031801
+  - Position: {x: -5.0154815, y: 0.09304332, z: 0.5190338}
+    Camber: 0
+    SegmentAxisX: {x: -0.97715515, y: 0, z: -0.21252716}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.21252716, y: 0, z: 0.97715515}
+    NextSegmentLen: 0.17241575
+    DistanceFromOrigin: 26.206268
+  - Position: {x: -5.0521245, y: 0.09304332, z: 0.6875107}
+    Camber: 0
+    SegmentAxisX: {x: -0.98343116, y: 0, z: -0.1812818}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.1812818, y: 0, z: 0.98343116}
+    NextSegmentLen: 0.17042655
+    DistanceFromOrigin: 26.378685
+  - Position: {x: -5.0830197, y: 0.09304332, z: 0.8551135}
+    Camber: 0
+    SegmentAxisX: {x: -0.98871297, y: 0, z: -0.1498225}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.1498225, y: 0.000000044218595, z: 0.98871297}
+    NextSegmentLen: 0.16849428
+    DistanceFromOrigin: 26.549112
+  - Position: {x: -5.108264, y: 0.09304333, z: 1.021706}
+    Camber: 0
+    SegmentAxisX: {x: -0.9929941, y: 0, z: -0.11816391}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.11816391, y: 0, z: 0.9929941}
+    NextSegmentLen: 0.16661307
+    DistanceFromOrigin: 26.717607
+  - Position: {x: -5.1279516, y: 0.09304333, z: 1.1871518}
+    Camber: 0
+    SegmentAxisX: {x: -0.99626553, y: 0, z: -0.08634278}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.08634278, y: 0.00000004521587, z: 0.99626553}
+    NextSegmentLen: 0.164778
+    DistanceFromOrigin: 26.88422
+  - Position: {x: -5.142179, y: 0.093043335, z: 1.3513144}
+    Camber: 0
+    SegmentAxisX: {x: -0.99852127, y: 0, z: -0.054361854}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.054361854, y: 0, z: 0.99852127}
+    NextSegmentLen: 0.16298398
+    DistanceFromOrigin: 27.048998
+  - Position: {x: -5.151039, y: 0.093043335, z: 1.5140574}
+    Camber: 0
+    SegmentAxisX: {x: -0.99975204, y: 0, z: -0.022267368}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: -0.022267368, y: -0.000000046211664, z: 0.99975204}
+    NextSegmentLen: 0.16122727
+    DistanceFromOrigin: 27.211983
+  - Position: {x: -5.154629, y: 0.09304333, z: 1.6752447}
+    Camber: 0
+    SegmentAxisX: {x: -0.9999506, y: 0, z: 0.009943154}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.009943154, y: 0, z: 0.9999506}
+    NextSegmentLen: 0.15950276
+    DistanceFromOrigin: 27.37321
+  - Position: {x: -5.1530433, y: 0.09304333, z: 1.8347396}
+    Camber: 0
+    SegmentAxisX: {x: -0.99910766, y: 0, z: 0.04223652}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.04223652, y: 0, z: 0.99910766}
+    NextSegmentLen: 0.15780726
+    DistanceFromOrigin: 27.532713
+  - Position: {x: -5.146378, y: 0.09304333, z: 1.992406}
+    Camber: 0
+    SegmentAxisX: {x: -0.9972117, y: 0, z: 0.074623846}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.074623846, y: -0.000000047718338, z: 0.9972117}
+    NextSegmentLen: 0.15613663
+    DistanceFromOrigin: 27.69052
+  - Position: {x: -5.1347265, y: 0.09304332, z: 2.1481073}
+    Camber: 0
+    SegmentAxisX: {x: -0.9942525, y: 0, z: 0.107060485}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.107060485, y: 0.000000048227527, z: 0.9942525}
+    NextSegmentLen: 0.15448813
+    DistanceFromOrigin: 27.846657
+  - Position: {x: -5.118187, y: 0.09304333, z: 2.3017075}
+    Camber: 0
+    SegmentAxisX: {x: -0.99021107, y: 0, z: 0.13957791}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.13957791, y: 0, z: 0.99021107}
+    NextSegmentLen: 0.15285802
+    DistanceFromOrigin: 28.001144
+  - Position: {x: -5.0968513, y: 0.09304333, z: 2.4530692}
+    Camber: 0
+    SegmentAxisX: {x: -0.9850738, y: 0, z: 0.17213278}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.17213278, y: 0, z: 0.9850738}
+    NextSegmentLen: 0.15124577
+    DistanceFromOrigin: 28.154003
+  - Position: {x: -5.070817, y: 0.09304333, z: 2.6020575}
+    Camber: 0
+    SegmentAxisX: {x: -0.9788173, y: 0, z: 0.20473605}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.20473605, y: 0, z: 0.9788173}
+    NextSegmentLen: 0.1496474
+    DistanceFromOrigin: 28.305248
+  - Position: {x: -5.040179, y: 0.09304333, z: 2.748535}
+    Camber: 0
+    SegmentAxisX: {x: -0.9714174, y: 0, z: 0.23737787}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.23737787, y: 0, z: 0.9714174}
+    NextSegmentLen: 0.1480623
+    DistanceFromOrigin: 28.454895
+  - Position: {x: -5.005032, y: 0.09304333, z: 2.8923652}
+    Camber: 0
+    SegmentAxisX: {x: -0.96284425, y: 0, z: 0.27005717}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.27005717, y: 0, z: 0.96284425}
+    NextSegmentLen: 0.14649044
+    DistanceFromOrigin: 28.602957
+  - Position: {x: -4.9654713, y: 0.09304333, z: 3.0334127}
+    Camber: 0
+    SegmentAxisX: {x: -0.95306766, y: 0, z: 0.30275753}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.30275753, y: 0, z: 0.95306766}
+    NextSegmentLen: 0.14492969
+    DistanceFromOrigin: 28.749447
+  - Position: {x: -4.9215927, y: 0.09304333, z: 3.1715405}
+    Camber: 0
+    SegmentAxisX: {x: -0.94204664, y: 0, z: 0.3354821}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.3354821, y: -0.000000051963358, z: 0.94204664}
+    NextSegmentLen: 0.14338143
+    DistanceFromOrigin: 28.894377
+  - Position: {x: -4.873491, y: 0.09304332, z: 3.3066125}
+    Camber: 0
+    SegmentAxisX: {x: -0.92973846, y: 0, z: 0.36822042}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.36822042, y: 0, z: 0.92973846}
+    NextSegmentLen: 0.14184536
+    DistanceFromOrigin: 29.037758
+  - Position: {x: -4.8212605, y: 0.09304332, z: 3.4384916}
+    Camber: 0
+    SegmentAxisX: {x: -0.91610223, y: 0, z: 0.40094477}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.40094477, y: 0.000000053095704, z: 0.91610223}
+    NextSegmentLen: 0.14032361
+    DistanceFromOrigin: 29.179604
+  - Position: {x: -4.7649984, y: 0.09304333, z: 3.5670424}
+    Camber: 0
+    SegmentAxisX: {x: -0.9010747, y: 0, z: 0.43366382}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.43366382, y: 0, z: 0.9010747}
+    NextSegmentLen: 0.1388177
+    DistanceFromOrigin: 29.319927
+  - Position: {x: -4.704798, y: 0.09304333, z: 3.6921275}
+    Camber: 0
+    SegmentAxisX: {x: -0.88460886, y: 0, z: 0.4663336}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.4663336, y: 0, z: 0.88460886}
+    NextSegmentLen: 0.13733107
+    DistanceFromOrigin: 29.458744
+  - Position: {x: -4.640756, y: 0.09304333, z: 3.8136117}
+    Camber: 0
+    SegmentAxisX: {x: -0.8666365, y: 0, z: 0.49894005}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.49894005, y: 0, z: 0.8666365}
+    NextSegmentLen: 0.13586618
+    DistanceFromOrigin: 29.596075
+  - Position: {x: -4.572967, y: 0.09304333, z: 3.9313583}
+    Camber: 0
+    SegmentAxisX: {x: -0.84709275, y: 0, z: 0.5314451}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.5314451, y: 0, z: 0.84709275}
+    NextSegmentLen: 0.13442634
+    DistanceFromOrigin: 29.731941
+  - Position: {x: -4.501527, y: 0.09304333, z: 4.04523}
+    Camber: 0
+    SegmentAxisX: {x: -0.8259072, y: 0, z: 0.5638062}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.5638062, y: 0, z: 0.8259072}
+    NextSegmentLen: 0.13301903
+    DistanceFromOrigin: 29.866367
+  - Position: {x: -4.42653, y: 0.09304333, z: 4.1550913}
+    Camber: 0
+    SegmentAxisX: {x: -0.8030064, y: 0, z: 0.5959706}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.5959706, y: 0, z: 0.8030064}
+    NextSegmentLen: 0.13164876
+    DistanceFromOrigin: 29.999386
+  - Position: {x: -4.348071, y: 0.09304333, z: 4.260806}
+    Camber: 0
+    SegmentAxisX: {x: -0.77831715, y: 0, z: 0.6278714}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.6278714, y: -0.00000005717136, z: 0.77831715}
+    NextSegmentLen: 0.13032016
+    DistanceFromOrigin: 30.131035
+  - Position: {x: -4.266247, y: 0.09304332, z: 4.3622365}
+    Camber: 0
+    SegmentAxisX: {x: -0.7517704, y: 0, z: 0.65942496}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.65942496, y: 0.00000005773668, z: 0.7517704}
+    NextSegmentLen: 0.12904415
+    DistanceFromOrigin: 30.261354
+  - Position: {x: -4.181152, y: 0.09304333, z: 4.459248}
+    Camber: 0
+    SegmentAxisX: {x: -0.72328603, y: 0, z: 0.6905486}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.6905486, y: 0, z: 0.72328603}
+    NextSegmentLen: 0.12782687
+    DistanceFromOrigin: 30.390398
+  - Position: {x: -4.092881, y: 0.09304333, z: 4.5517035}
+    Camber: 0
+    SegmentAxisX: {x: -0.69280034, y: 0, z: 0.7211295}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.7211295, y: 0, z: 0.69280034}
+    NextSegmentLen: 0.1266777
+    DistanceFromOrigin: 30.518225
+  - Position: {x: -4.00153, y: 0.09304333, z: 4.639466}
+    Camber: 0
+    SegmentAxisX: {x: -0.66026074, y: 0, z: 0.7510364}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.7510364, y: 0, z: 0.66026074}
+    NextSegmentLen: 0.1256078
+    DistanceFromOrigin: 30.644903
+  - Position: {x: -3.9071941, y: 0.09304333, z: 4.7223997}
+    Camber: 0
+    SegmentAxisX: {x: -0.62561613, y: 0, z: 0.78013104}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.78013104, y: 0.00000005978272, z: 0.62561613}
+    NextSegmentLen: 0.12462766
+    DistanceFromOrigin: 30.770512
+  - Position: {x: -3.8099682, y: 0.093043335, z: 4.800369}
+    Camber: 0
+    SegmentAxisX: {x: -0.5888311, y: 0, z: 0.8082561}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8082561, y: -0.00000006020748, z: 0.5888311}
+    NextSegmentLen: 0.123748414
+    DistanceFromOrigin: 30.89514
+  - Position: {x: -3.7099478, y: 0.09304333, z: 4.8732357}
+    Camber: 0
+    SegmentAxisX: {x: -0.54990053, y: 0, z: 0.8352302}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8352302, y: 0, z: 0.54990053}
+    NextSegmentLen: 0.122983806
+    DistanceFromOrigin: 31.018888
+  - Position: {x: -3.607228, y: 0.09304333, z: 4.9408646}
+    Camber: 0
+    SegmentAxisX: {x: -0.5088391, y: 0, z: 0.86086166}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.86086166, y: 0, z: 0.5088391}
+    NextSegmentLen: 0.122346945
+    DistanceFromOrigin: 31.141872
+  - Position: {x: -3.5019042, y: 0.09304333, z: 5.0031195}
+    Camber: 0
+    SegmentAxisX: {x: -0.4656795, y: 0, z: 0.88495344}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.88495344, y: 0, z: 0.4656795}
+    NextSegmentLen: 0.121851236
+    DistanceFromOrigin: 31.26422
+  - Position: {x: -3.3940716, y: 0.09304333, z: 5.059863}
+    Camber: 0
+    SegmentAxisX: {x: -0.4205124, y: 0, z: 0.90728676}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.90728676, y: 0, z: 0.4205124}
+    NextSegmentLen: 0.12151221
+    DistanceFromOrigin: 31.38607
+  - Position: {x: -3.2838252, y: 0.09304333, z: 5.1109605}
+    Camber: 0
+    SegmentAxisX: {x: -0.37342778, y: 0, z: 0.9276593}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9276593, y: 0, z: 0.37342778}
+    NextSegmentLen: 0.12134309
+    DistanceFromOrigin: 31.507582
+  - Position: {x: -3.17126, y: 0.09304333, z: 5.1562734}
+    Camber: 0
+    SegmentAxisX: {x: -0.32460445, y: 0, z: 0.94584984}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.94584984, y: 0, z: 0.32460445}
+    NextSegmentLen: 0.121359706
+    DistanceFromOrigin: 31.628925
+  - Position: {x: -3.056472, y: 0.09304333, z: 5.1956673}
+    Camber: 0
+    SegmentAxisX: {x: -0.27421188, y: 0, z: 0.9616693}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9616693, y: 0, z: 0.27421188}
+    NextSegmentLen: 0.12157603
+    DistanceFromOrigin: 31.750284
+  - Position: {x: -2.9395561, y: 0.09304333, z: 5.229005}
+    Camber: 0
+    SegmentAxisX: {x: -0.22247915, y: 0, z: 0.97493744}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.97493744, y: 0, z: 0.22247915}
+    NextSegmentLen: 0.12200674
+    DistanceFromOrigin: 31.87186
+  - Position: {x: -2.8206072, y: 0.09304333, z: 5.256149}
+    Camber: 0
+    SegmentAxisX: {x: -0.16969615, y: 0, z: 0.9854964}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9854964, y: 0, z: 0.16969615}
+    NextSegmentLen: 0.12266541
+    DistanceFromOrigin: 31.993868
+  - Position: {x: -2.6997209, y: 0.09304333, z: 5.2769647}
+    Camber: 0
+    SegmentAxisX: {x: -0.11614107, y: 0, z: 0.9932327}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9932327, y: 0, z: 0.11614107}
+    NextSegmentLen: 0.1235643
+    DistanceFromOrigin: 32.116535
+  - Position: {x: -2.5769928, y: 0.09304333, z: 5.2913156}
+    Camber: 0
+    SegmentAxisX: {x: -0.062133588, y: 0, z: 0.9980678}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9980678, y: 0.00000005974016, z: 0.062133588}
+    NextSegmentLen: 0.12471645
+    DistanceFromOrigin: 32.2401
+  - Position: {x: -2.4525173, y: 0.093043335, z: 5.2990646}
+    Camber: 0
+    SegmentAxisX: {x: -0.008010844, y: 0, z: 0.999968}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.999968, y: -0.000000059070047, z: 0.008010844}
+    NextSegmentLen: 0.12613128
+    DistanceFromOrigin: 32.36482
+  - Position: {x: -2.32639, y: 0.09304333, z: 5.300075}
+    Camber: 0
+    SegmentAxisX: {x: 0.04587496, y: -0, z: 0.99894714}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.99894714, y: 0, z: -0.04587496}
+    NextSegmentLen: 0.12781845
+    DistanceFromOrigin: 32.49095
+  - Position: {x: -2.1987062, y: 0.09304333, z: 5.2942114}
+    Camber: 0
+    SegmentAxisX: {x: 0.09919924, y: -0, z: 0.9950676}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9950676, y: 0, z: -0.09919924}
+    NextSegmentLen: 0.1297853
+    DistanceFromOrigin: 32.61877
+  - Position: {x: -2.069561, y: 0.09304333, z: 5.281337}
+    Camber: 0
+    SegmentAxisX: {x: 0.15164088, y: -0, z: 0.9884356}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9884356, y: 0, z: -0.15164088}
+    NextSegmentLen: 0.13203822
+    DistanceFromOrigin: 32.748554
+  - Position: {x: -1.9390497, y: 0.09304333, z: 5.2613144}
+    Camber: 0
+    SegmentAxisX: {x: 0.20289311, y: -0, z: 0.9792009}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9792009, y: 0, z: -0.20289311}
+    NextSegmentLen: 0.13458122
+    DistanceFromOrigin: 32.880592
+  - Position: {x: -1.8072677, y: 0.09304333, z: 5.234009}
+    Camber: 0
+    SegmentAxisX: {x: 0.25269833, y: -0, z: 0.9675451}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.9675451, y: 0, z: -0.25269833}
+    NextSegmentLen: 0.13741757
+    DistanceFromOrigin: 33.015175
+  - Position: {x: -1.67431, y: 0.09304333, z: 5.1992836}
+    Camber: 0
+    SegmentAxisX: {x: 0.300833, y: -0, z: 0.95367676}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.95367676, y: 0, z: -0.300833}
+    NextSegmentLen: 0.14054851
+    DistanceFromOrigin: 33.15259
+  - Position: {x: -1.5402721, y: 0.09304333, z: 5.157002}
+    Camber: 0
+    SegmentAxisX: {x: 0.34710565, y: -0, z: 0.937826}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.937826, y: 0.00000005174923, z: -0.34710565}
+    NextSegmentLen: 0.14397472
+    DistanceFromOrigin: 33.29314
+  - Position: {x: -1.4052489, y: 0.093043335, z: 5.1070275}
+    Camber: 0
+    SegmentAxisX: {x: 0.3913732, y: -0, z: 0.92023206}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.92023206, y: -0.000000050445923, z: -0.3913732}
+    NextSegmentLen: 0.14769441
+    DistanceFromOrigin: 33.437115
+  - Position: {x: -1.2693357, y: 0.09304333, z: 5.049224}
+    Camber: 0
+    SegmentAxisX: {x: 0.4335313, y: -0, z: 0.90113854}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.90113854, y: 0, z: -0.4335313}
+    NextSegmentLen: 0.15170576
+    DistanceFromOrigin: 33.58481
+  - Position: {x: -1.1326278, y: 0.09304333, z: 4.9834547}
+    Camber: 0
+    SegmentAxisX: {x: 0.4735142, y: -0, z: 0.8807862}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8807862, y: 0, z: -0.4735142}
+    NextSegmentLen: 0.15600516
+    DistanceFromOrigin: 33.736515
+  - Position: {x: -0.99522066, y: 0.09304333, z: 4.909584}
+    Camber: 0
+    SegmentAxisX: {x: 0.5112964, y: -0, z: 0.85940444}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.85940444, y: 0, z: -0.5112964}
+    NextSegmentLen: 0.16058978
+    DistanceFromOrigin: 33.89252
+  - Position: {x: -0.8572091, y: 0.09304333, z: 4.827475}
+    Camber: 0
+    SegmentAxisX: {x: 0.54687935, y: -0, z: 0.83721143}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.83721143, y: 0, z: -0.54687935}
+    NextSegmentLen: 0.16545452
+    DistanceFromOrigin: 34.053112
+  - Position: {x: -0.71868867, y: 0.09304333, z: 4.7369914}
+    Camber: 0
+    SegmentAxisX: {x: 0.58028895, y: -0, z: 0.8144106}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.8144106, y: 0.000000043674145, z: -0.58028895}
+    NextSegmentLen: 0.17059477
+    DistanceFromOrigin: 34.218567
+  - Position: {x: -0.5797545, y: 0.093043335, z: 4.637997}
+    Camber: 0
+    SegmentAxisX: {x: 0.62653875, y: -0, z: 0.7793903}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.7793903, y: -0.000000020836307, z: -0.62653875}
+    NextSegmentLen: 0.35757682
+    DistanceFromOrigin: 34.38916
+  - Position: {x: -0.30106258, y: 0.09304333, z: 4.4139614}
+    Camber: 0
+    SegmentAxisX: {x: 0.646875, y: -0, z: 0.76259595}
+    SegmentAxisY: {x: 0, y: 1, z: 0}
+    SegmentAxisZ: {x: 0.76259595, y: 0.00000004436563, z: -0.646875}
+    NextSegmentLen: 0.16793586
+    DistanceFromOrigin: 34.74674
+  InterpolationSteps: 20
+  InterpolationWorldStep: 0.1
+  InterpolationType: 0
+  EditHandlesXZ: 1
+  EditHandlesY: 0
+  CurveType: 2
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Width: 0.2
+  Thickness: 0
+  GenerateSidesGeometry: 1
+  TotalLength: 34.74674
+  mManualModeAddPlaneHeight: 0
+  IsClosed: 1
+  AppendPointsOnCreation: 1
+  AlwaysRenderControlPoints: 0
+  InitialHandleDist: 4
+  mLastRefreshTime: 19799.8151204
+  mDefaultMaterial: {fileID: 1350292324}
+--- !u!4 &1486482672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486482668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.42017555, y: 0, z: 0.6816839}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1648686874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1648686878}
+  - component: {fileID: 1648686877}
+  - component: {fileID: 1648686876}
+  - component: {fileID: 1648686875}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1648686875
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648686874}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1648686876
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648686874}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2a75d88bc8606a94f9266cc051c36ced, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1648686877
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648686874}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1648686878
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648686874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2088708578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6231139475363702120, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2088708584}
+  - component: {fileID: 2088708582}
+  - component: {fileID: 2088708581}
+  - component: {fileID: 2088708579}
+  - component: {fileID: 2088708583}
+  - component: {fileID: 2088708580}
+  m_Layer: 0
+  m_Name: ChairOfficeGesture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2088708579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2088708579, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088708578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6068492, y: 0.6174674, z: 1.1382884}
+  m_Center: {x: -0.0016839653, y: -0.01770847, z: 0.5691542}
+--- !u!114 &2088708580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2088708580, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088708578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745b26863588a0b45894ab704fa8ced0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animtext: {fileID: 221870346}
+--- !u!23 &2088708581
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6231139475361446824, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088708578}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 135326224c922a845b9fe761029099e4, type: 2}
+  - {fileID: 2100000, guid: 135326224c922a845b9fe761029099e4, type: 2}
+  - {fileID: 2100000, guid: 135326224c922a845b9fe761029099e4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2088708582
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6231139475360348520, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088708578}
+  m_Mesh: {fileID: 4300000, guid: 2cd1a337a12fdcf449bf29d7f1e3c702, type: 3}
+--- !u!95 &2088708583
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2088708583, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088708578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2a131f197b06ac242aad15bedb59c72e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &2088708584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+    type: 3}
+  m_PrefabInstance: {fileID: 6231139475480592284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088708578}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0, z: 1.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!1001 &2098961002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_Name
+      value: Ray_Igloo03
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ddaceb0aeebc9d49a4fd8571962f2b9, type: 3}
+--- !u!1001 &6231139475480592284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6231139475363702120, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_Name
+      value: ChairOfficeGesture
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6231139475363215688, guid: ba8a3e4c74e688a459cfde44b288e054,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088708580, guid: ba8a3e4c74e688a459cfde44b288e054, type: 3}
+      propertyPath: animtext
+      value: 
+      objectReference: {fileID: 221870346}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba8a3e4c74e688a459cfde44b288e054, type: 3}
